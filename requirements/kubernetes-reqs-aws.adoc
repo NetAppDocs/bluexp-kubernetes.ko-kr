@@ -110,7 +110,7 @@ Connector가 클러스터를 검색 및 관리할 수 있도록 각 Kubernetes �
 다른 기능을 사용하려면 다른 권한이 필요합니다.
 
 백업 및 복원:: 백업 및 복원에는 기본 인증만 필요합니다.
-스토리지 클래스를 추가합니다:: Cloud Manager를 사용하여 스토리지 클래스를 추가하려면 확장된 인증이 필요합니다.
+스토리지 클래스를 추가합니다:: Cloud Manager를 사용하여 스토리지 클래스를 추가하고 클러스터에서 백엔드의 변경 사항을 모니터링하려면 확장된 인증이 필요합니다.
 Astra 트리덴트 설치:: Astra Trident를 설치하려면 Cloud Manager에 대한 전체 인증을 제공해야 합니다.
 +
 --
@@ -144,12 +144,14 @@ rules:
           - namespaces
       verbs:
           - list
+          - watch
     - apiGroups:
           - ''
       resources:
           - persistentvolumes
       verbs:
           - list
+          - watch
     - apiGroups:
           - ''
       resources:
@@ -158,6 +160,7 @@ rules:
       verbs:
           - get
           - list
+          - watch
     - apiGroups:
           - ''
       resources:
@@ -165,6 +168,7 @@ rules:
       verbs:
           - list
           - create
+          - watch
     - apiGroups:
           - storage.k8s.io
       resources:
@@ -177,12 +181,14 @@ rules:
           - tridentbackends
       verbs:
           - list
+          - watch
     - apiGroups:
           - trident.netapp.io
       resources:
           - tridentorchestrators
       verbs:
           - get
+          - watch
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
@@ -221,8 +227,10 @@ rules:
       verbs:
           - get
           - list
+          - watch
           - create
           - delete
+          - watch
     - apiGroups:
           - storage.k8s.io
       resources:
@@ -231,6 +239,7 @@ rules:
           - get
           - create
           - list
+          - watch
           - delete
           - patch
     - apiGroups:
@@ -242,8 +251,10 @@ rules:
       verbs:
           - get
           - list
+          - watch
           - create
           - delete
+          - watch
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
