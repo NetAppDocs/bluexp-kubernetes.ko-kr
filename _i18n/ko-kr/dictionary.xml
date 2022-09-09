@@ -429,19 +429,6 @@
   <block id="187496d0d891ffe76a43f6ffdd995505" category="paragraph"><block ref="187496d0d891ffe76a43f6ffdd995505" category="inline-link-macro-rx"></block></block>
   <block id="e72a8a52b20d0b466a3152c8c60b4f2b" category="paragraph"><block ref="e72a8a52b20d0b466a3152c8c60b4f2b" category="inline-link-macro-rx"></block></block>
   <block id="09e2861e1b9bab7606bd9fd36b62d621" category="paragraph"><block ref="09e2861e1b9bab7606bd9fd36b62d621" category="inline-link-macro-rx"></block></block>
-  <block id="e29d7c0b36af68edd13ebac84f15b44b" category="sidebar">클라우드 공급자</block>
-  <block id="46aef2e5080a5347df1ce7546e1be1df" category="sidebar">모든 클라우드 공급자</block>
-  <block id="6beccc67ff905f7da0b29dece26b0485" category="sidebar">Amazon Web Services에서 직접 지원합니다</block>
-  <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">설치하고</block>
-  <block id="56ef2682280ac110060b881925a87b80" category="sidebar">Google 클라우드</block>
-  <block id="1668ca1bd914c1d847f23b491319ac91" category="sidebar">Microsoft Azure를 참조하십시오</block>
-  <block id="3a580f142203677f1f0bc30898f63f53" category="sidebar">Azure를 지원합니다</block>
-  <block id="5a81378cdc7edd9ea960cf02d6ca78d2" category="paragraph">ifdef::aws[]</block>
-  <block id="6beb2fa01dc121194547db1bfbe03408" category="paragraph">endif::aws[]</block>
-  <block id="b010c7530103ef9947582474d65ff9a3" category="paragraph">ifdef::azure[]</block>
-  <block id="879701946bb2bc7241d0f85fd843455a" category="paragraph">endif::azure[]</block>
-  <block id="6e1e9c83b80f4d22d34cbdf60a71383b" category="paragraph">ifdef::gcp[]</block>
-  <block id="310c228207a0f8446bbe4c5d16978cb7" category="paragraph">endif::gcp[]</block>
   <block id="9caa4ae51ebcef018806ad6f192f8ff2" category="paragraph"><block ref="9caa4ae51ebcef018806ad6f192f8ff2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8fe98c5be333c8d7ddf225ff536de10d" category="paragraph"><block ref="8fe98c5be333c8d7ddf225ff536de10d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d3addf40fe274281b5a1b857dc827df3" category="admonition">스토리지 클래스가 정의되지 않은 경우 클러스터에 필요한 작업이 표시됩니다. Canvas에서 클러스터를 두 번 클릭하면 작업 페이지가 열려 스토리지 클래스를 추가합니다.</block>
@@ -491,14 +478,13 @@
   <block id="c8eab1b571514f2581e71f1d62ef0a5c" category="list-text">Block * 또는 * Filesystem * 스토리지의 경우 스토리지 경제성을 설정할 수 있도록 선택할 수 있습니다.</block>
   <block id="6b1835b63a667b5d28c6cf5c193ebf6d" category="inline-image-macro">블록 또는 파일 K8s 스토리지 클래스를 구성할 때 스토리지 절약 옵션을 보여 주는 스크린샷</block>
   <block id="65d13d9fa0f964d7b46973f76d2582f8" category="paragraph"><block ref="65d13d9fa0f964d7b46973f76d2582f8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ab5290e8336f16751587ce4bb04bee9a" category="list-text">볼륨 확장, 볼륨 조절 및 기본 스토리지 클래스에 대한 옵션을 선택합니다. 다음 * 을 클릭합니다.</block>
   <block id="ecf10a2bcba311fc1c4036564af2f5af" category="admonition">Cloud Manager는 Kubernetes 클러스터에서 백엔드의 변경 사항을 모니터링하고 새 볼륨이 추가될 때 영구 볼륨 테이블을 업데이트합니다. 클러스터에 자동 백업이 구성된 경우 새 영구 볼륨에 대해 백업이 자동으로 활성화됩니다.</block>
   <block id="4e3c799b30496977a0099e6679f9e67f" category="list-text">Cloud Manager를 사용하여 스토리지 클래스를 추가하고 클러스터에서 백엔드의 변경 사항을 모니터링하려면 확장된 인증이 필요합니다.</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022년 7월 31일</block>
   <block id="5b68f6193aeecc12614fe4ce8bedf31e" category="list-text">Cloud Manager는 스토리지 클래스의 새로운 '-watch' 동사를 사용하고 YAML 구성을 백업 및 복원하여 이제 Kubernetes 클러스터에서 클러스터 백엔드의 변경 사항을 모니터링하고 클러스터에서 자동 백업이 구성된 경우 새로운 영구 볼륨의 백업을 자동으로 활성화할 수 있습니다.</block>
-  <block id="26b17225b626fb9238849fd60eabdf60" category="paragraph">를 누릅니다</block>
   <block id="eb3b05e2bcc0acdca8f3706dc6168810" category="inline-link-macro">스토리지 클래스 정의</block>
   <block id="4d7aa2608f19ed6007e314a1e829a7f0" category="list-text">시기 <block ref="44765f3a3e8511cc80b0083ae1e5f436" category="inline-link-macro-rx"></block>이제 다음을 수행할 수 있습니다.</block>
   <block id="41ee8bf0ce0084d7bbc703ebd0503f3f" category="list-text">블록 스토리지에 대한 파일 시스템 유형(fstype)을 지정합니다</block>
   <block id="3fce6f9d08f0fed5c965732f940ad498" category="list-text">블록 및 파일 스토리지에 대한 스토리지 경제성을 지원합니다</block>
+  <block id="f7fcb1352aec0188a9f059c28c8b96f2" category="list-text">볼륨 확장, 볼륨 바인딩 및 기본 스토리지 클래스에 대한 옵션을 선택합니다. 다음 * 을 클릭합니다.</block>
 </blocks>
