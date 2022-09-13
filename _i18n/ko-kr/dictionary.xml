@@ -489,12 +489,10 @@
   <block id="1d0aa2134f57ae761efb59f68c5d0044" category="paragraph">자체 관리되는 OpenShift 클러스터를 Cloud Manager로 임포트하여 영구 볼륨을 클라우드 공급자에게 백업할 수 있습니다.</block>
   <block id="775f8efc928538f555b4520733a0825d" category="paragraph">OpenShift 클러스터를 추가하기 전에 다음이 필요합니다.</block>
   <block id="d795d581b00d494d8c6250bb5e1fcf89" category="inline-link-macro">kubecononfig 파일을 생성합니다</block>
-  <block id="40582f5905c5438cc50d0b3856d01bdd" category="list-text">당신이 만든 쿠베코무화나 파일 <block ref="8753453e8f212c09749310e708af84b1" category="inline-link-macro-rx"></block>.</block>
   <block id="e7076b96b4cfb7668eac66eb624334ad" category="list-text">클러스터에 대한 공개 인증 기관(예: ca.crt), 클라이언트 키(예: tls.key) 및 클라이언트 인증(예: tls.crt) 파일.</block>
   <block id="17011a566ae4f46bae81e507282825fb" category="list-text">Canvas * 에서 * 작업 환경 추가 * 를 선택합니다.</block>
   <block id="4c031f22edba9db9f5529644e071eb8a" category="list-text">클라우드 공급자를 선택하고 * Kubernetes Cluster * 를 선택한 후 * Next * 를 선택합니다.</block>
   <block id="02ebc3697d40233b9c554520eda51f25" category="list-text">클러스터 가져오기 * 를 선택한 후 * 다음 * 을 선택합니다.</block>
-  <block id="de6737449407eb5afbd77e9794daa605" category="list-text">에서 만든 kubecon무화나 파일을 업로드합니다 <block ref="8753453e8f212c09749310e708af84b1" category="inline-link-macro-rx"></block>. Kubernetes 클러스터를 선택하고 * Next * 를 선택합니다.</block>
   <block id="7c371426945f4674b445faa898f442c8" category="list-text">클러스터 인증서를 업로드합니다.</block>
   <block id="40a58da0341e721e033a4cf334d62ab0" category="inline-image-macro">클러스터 인증서 업로드 화면의 스크린샷</block>
   <block id="95a989ce51f5125f1cda095e21371ee7" category="paragraph"><block ref="95a989ce51f5125f1cda095e21371ee7" category="inline-image-macro-rx" type="image"></block></block>
@@ -535,4 +533,6 @@
   <block id="922c92b70dc30bbc8f03dd7e7c4abf3d" category="paragraph">결과로 생성된 'kubecononfig-sa' 파일을 사용하여 OpenShift 클러스터를 Cloud Manager에 추가할 수 있습니다.</block>
   <block id="0c6a9a1e3ba06deae014e58e617bd162" category="sidebar">OpenShift의 Kubernetes 클러스터</block>
   <block id="0ec3c7d00da8bde7e119875963ce517b" category="sidebar">OpenShift에서 클러스터를 추가합니다</block>
+  <block id="9a1523c9f261730956627967961b03ba" category="list-text">당신이 만든 쿠베코무화나 파일 <block ref="853bbee8a9a9e7ed0c6dbe47e266bf3d" category="inline-link-macro-rx"></block>.</block>
+  <block id="d68d1fb21874c919e4b91a231a5f7974" category="list-text">에서 만든 kubecon무화나 파일을 업로드합니다 <block ref="853bbee8a9a9e7ed0c6dbe47e266bf3d" category="inline-link-macro-rx"></block>. Kubernetes 클러스터를 선택하고 * Next * 를 선택합니다.</block>
 </blocks>
