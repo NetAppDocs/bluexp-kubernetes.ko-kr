@@ -471,20 +471,68 @@
   <block id="319a42bc8932c7d4f9387e0c5de9c64c" category="list-text">Canvas에서 Kubernetes 작업 환경을 Cloud Volumes ONTAP 또는 ONTAP용 Amazon FSx 작업 환경으로 끌어다 놓아 스토리지 클래스 마법사를 엽니다.</block>
   <block id="622535c1c45bf857c104b24a29a940e1" category="paragraph"><block ref="622535c1c45bf857c104b24a29a940e1" category="inline-link-rx"></block></block>
   <block id="1ccfa8d0f204060ee0f11f2c9eb14095" category="list-text">스토리지 클래스의 이름을 입력합니다.</block>
-  <block id="c6433cee19c85bb6d8ae6aa94d0f3e29" category="list-text">Filesystem * 또는 * Block * storage를 선택합니다.</block>
-  <block id="41e48ca5b3f40412908aef4ef536c2c8" category="list-text">Block * 스토리지인 경우 파일 시스템 유형(fstype)을 선택합니다.</block>
   <block id="a021b0b7caf02edd4dae76afb277c7fc" category="inline-image-macro">K8s 스토리지 클래스를 구성할 때 블록 스토리지에 대한 fstype 옵션을 보여 주는 스크린샷</block>
-  <block id="f414d56bf773fadbe8e9de31efd23ebc" category="paragraph"><block ref="f414d56bf773fadbe8e9de31efd23ebc" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c8eab1b571514f2581e71f1d62ef0a5c" category="list-text">Block * 또는 * Filesystem * 스토리지의 경우 스토리지 경제성을 설정할 수 있도록 선택할 수 있습니다.</block>
-  <block id="6b1835b63a667b5d28c6cf5c193ebf6d" category="inline-image-macro">블록 또는 파일 K8s 스토리지 클래스를 구성할 때 스토리지 절약 옵션을 보여 주는 스크린샷</block>
-  <block id="65d13d9fa0f964d7b46973f76d2582f8" category="paragraph"><block ref="65d13d9fa0f964d7b46973f76d2582f8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ecf10a2bcba311fc1c4036564af2f5af" category="admonition">Cloud Manager는 Kubernetes 클러스터에서 백엔드의 변경 사항을 모니터링하고 새 볼륨이 추가될 때 영구 볼륨 테이블을 업데이트합니다. 클러스터에 자동 백업이 구성된 경우 새 영구 볼륨에 대해 백업이 자동으로 활성화됩니다.</block>
   <block id="4e3c799b30496977a0099e6679f9e67f" category="list-text">Cloud Manager를 사용하여 스토리지 클래스를 추가하고 클러스터에서 백엔드의 변경 사항을 모니터링하려면 확장된 인증이 필요합니다.</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022년 7월 31일</block>
   <block id="5b68f6193aeecc12614fe4ce8bedf31e" category="list-text">Cloud Manager는 스토리지 클래스의 새로운 '-watch' 동사를 사용하고 YAML 구성을 백업 및 복원하여 이제 Kubernetes 클러스터에서 클러스터 백엔드의 변경 사항을 모니터링하고 클러스터에서 자동 백업이 구성된 경우 새로운 영구 볼륨의 백업을 자동으로 활성화할 수 있습니다.</block>
   <block id="eb3b05e2bcc0acdca8f3706dc6168810" category="inline-link-macro">스토리지 클래스 정의</block>
-  <block id="4d7aa2608f19ed6007e314a1e829a7f0" category="list-text">시기 <block ref="44765f3a3e8511cc80b0083ae1e5f436" category="inline-link-macro-rx"></block>이제 다음을 수행할 수 있습니다.</block>
-  <block id="41ee8bf0ce0084d7bbc703ebd0503f3f" category="list-text">블록 스토리지에 대한 파일 시스템 유형(fstype)을 지정합니다</block>
-  <block id="3fce6f9d08f0fed5c965732f940ad498" category="list-text">블록 및 파일 스토리지에 대한 스토리지 경제성을 지원합니다</block>
   <block id="f7fcb1352aec0188a9f059c28c8b96f2" category="list-text">볼륨 확장, 볼륨 바인딩 및 기본 스토리지 클래스에 대한 옵션을 선택합니다. 다음 * 을 클릭합니다.</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
+  <block id="d8d8980dd9fc5d0937a35fea8cb24808" category="paragraph">이제 자체 관리되는 OpenShift 클러스터를 Cloud Manager로 가져올 수 있습니다.</block>
+  <block id="b77adae4ee23d10b92f9545417611303" category="inline-link-macro">OpenShift의 Kubernetes 클러스터 요구사항</block>
+  <block id="fd4ea134fa6bbf226ead48569ec25aaa" category="list-text"><block ref="fd4ea134fa6bbf226ead48569ec25aaa" category="inline-link-macro-rx"></block></block>
+  <block id="f82e729d73d970e1bd3789638aed5dca" category="inline-link-macro">Cloud Manager에 OpenShift 클러스터를 추가합니다</block>
+  <block id="049c95d2615dd6bba6242ffae7eae5fe" category="list-text"><block ref="049c95d2615dd6bba6242ffae7eae5fe" category="inline-link-macro-rx"></block></block>
+  <block id="19e7864b32363d7ba3bb16a024e95d79" category="list-text">시기 <block ref="44765f3a3e8511cc80b0083ae1e5f436" category="inline-link-macro-rx"></block>이제 블록 스토리지에 대한 파일 시스템 유형(fstype)을 지정할 수 있습니다.</block>
+  <block id="3c2adb793409d16c72d81d49ec7cd745" category="summary">자체 관리되는 OpenShift 클러스터를 Cloud Manager로 임포트하여 영구 볼륨을 클라우드 공급자에게 백업할 수 있습니다.</block>
+  <block id="1d0aa2134f57ae761efb59f68c5d0044" category="paragraph">자체 관리되는 OpenShift 클러스터를 Cloud Manager로 임포트하여 영구 볼륨을 클라우드 공급자에게 백업할 수 있습니다.</block>
+  <block id="775f8efc928538f555b4520733a0825d" category="paragraph">OpenShift 클러스터를 추가하기 전에 다음이 필요합니다.</block>
+  <block id="d795d581b00d494d8c6250bb5e1fcf89" category="inline-link-macro">kubecononfig 파일을 생성합니다</block>
+  <block id="40582f5905c5438cc50d0b3856d01bdd" category="list-text">당신이 만든 쿠베코무화나 파일 <block ref="8753453e8f212c09749310e708af84b1" category="inline-link-macro-rx"></block>.</block>
+  <block id="e7076b96b4cfb7668eac66eb624334ad" category="list-text">클러스터에 대한 공개 인증 기관(예: ca.crt), 클라이언트 키(예: tls.key) 및 클라이언트 인증(예: tls.crt) 파일.</block>
+  <block id="17011a566ae4f46bae81e507282825fb" category="list-text">Canvas * 에서 * 작업 환경 추가 * 를 선택합니다.</block>
+  <block id="4c031f22edba9db9f5529644e071eb8a" category="list-text">클라우드 공급자를 선택하고 * Kubernetes Cluster * 를 선택한 후 * Next * 를 선택합니다.</block>
+  <block id="02ebc3697d40233b9c554520eda51f25" category="list-text">클러스터 가져오기 * 를 선택한 후 * 다음 * 을 선택합니다.</block>
+  <block id="de6737449407eb5afbd77e9794daa605" category="list-text">에서 만든 kubecon무화나 파일을 업로드합니다 <block ref="8753453e8f212c09749310e708af84b1" category="inline-link-macro-rx"></block>. Kubernetes 클러스터를 선택하고 * Next * 를 선택합니다.</block>
+  <block id="7c371426945f4674b445faa898f442c8" category="list-text">클러스터 인증서를 업로드합니다.</block>
+  <block id="40a58da0341e721e033a4cf334d62ab0" category="inline-image-macro">클러스터 인증서 업로드 화면의 스크린샷</block>
+  <block id="95a989ce51f5125f1cda095e21371ee7" category="paragraph"><block ref="95a989ce51f5125f1cda095e21371ee7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="11fdcf36bc2c8b5bfd93e6121adc30e4" category="list-text">Filesystem * 또는 * Block * storage를 선택합니다. Block * 스토리지인 경우 파일 시스템 유형(fstype)을 선택합니다.</block>
+  <block id="1688bddc71d0ab83d2459fc2d264cbe0" category="paragraph"><block ref="1688bddc71d0ab83d2459fc2d264cbe0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="157f04e8460a66677d3d8d3b9e7d3b2a" category="summary">Cloud Manager를 사용하여 자체 관리되는 OpenShift Kubernetes 클러스터를 추가하고 관리할 수 있습니다. 클러스터를 Cloud Manager에 추가하려면 먼저 다음 요구사항을 충족해야 합니다.</block>
+  <block id="28c5fcd62b4a87354b50e4967cd0022a" category="list-text">Kubernetes 클러스터를 임포트 및 관리하려면 Cloud Manager Connector가 필요합니다. 새 Connector를 만들거나 클라우드 공급자에 대한 필수 권한이 있는 기존 Connector를 사용해야 합니다.</block>
+  <block id="78f4011ce4eec11823de490a29f344e7" category="inline-link-macro">AWS 커넥터</block>
+  <block id="cffb555a0390870f6d957bab2b87008e" category="list-text"><block ref="cffb555a0390870f6d957bab2b87008e" category="inline-link-macro-rx"></block></block>
+  <block id="625f50cfccef81e43215d5f35b6122fe" category="inline-link-macro">Azure 커넥터</block>
+  <block id="c8a8cbc981f0028a05bbbdbdef98749c" category="list-text"><block ref="c8a8cbc981f0028a05bbbdbdef98749c" category="inline-link-macro-rx"></block></block>
+  <block id="6d75f957aed766005dc3be4d9f8c4ec5" category="inline-link-macro">Google Cloud Connector</block>
+  <block id="e51199bdde0640d2bca477ecdc555e8f" category="list-text"><block ref="e51199bdde0640d2bca477ecdc555e8f" category="inline-link-macro-rx"></block></block>
+  <block id="9703b589f82c3c63870b38bf11559988" category="list-text">Kubernetes 클러스터와 Connector 간, Kubernetes 클러스터와 Cloud Volumes ONTAP 사이에 네트워크 연결이 필요합니다.</block>
+  <block id="890de07cb51c2692baea480106b633e1" category="list-text">RBAC 권한이 있는 Kubernetes 구성 파일(kubecononfig)</block>
+  <block id="01c29ea434ec706b9c6a08114a6edec6" category="list-text">OpenShift 클러스터를 가져오려면 다른 기능을 활성화하는 데 필요한 RBAC 권한이 있는 kubecononfig 파일이 필요합니다. <block ref="e356c2da27abb1a00cc68449c7fb7c0f" category="inline-xref-macro-rx"></block>.</block>
+  <block id="71555b5b57250c45d25fb80d40ba1a02" category="list-text">백업 및 복원: 백업 및 복원에는 기본 인증만 필요합니다.</block>
+  <block id="da3cca107e2faeb6cc5e537d940ecafc" category="list-text">스토리지 클래스 추가: Cloud Manager를 사용하여 스토리지 클래스를 추가하고 클러스터에서 백엔드의 변경 사항을 모니터링하려면 확장된 인증이 필요합니다.</block>
+  <block id="02bb014d52bfff4da8649fb7d63c8c4e" category="list-text">Astra Trident 설치: Cloud Manager에 Astra Trident를 설치하려면 전체 인증을 제공해야 합니다.</block>
+  <block id="d35cb258bf38db8a375c6b851aef5d80" category="section-title">kubecononfig 파일을 생성합니다</block>
+  <block id="df0933cfbf38c818728cae3b18f61b03" category="paragraph">OpenShift CLI를 사용하여 kubeconfig 파일을 만들어 Cloud Manager로 가져옵니다.</block>
+  <block id="6bc1e2f01411b6d08baccbe5ffe9dc00" category="list-text">관리 사용자가 있는 공용 URL에서 OC 로그인을 사용하여 OpenShift CLI에 로그인합니다.</block>
+  <block id="5f85438ae0f2c9122a5cf54e8e098c98" category="list-text">다음과 같이 서비스 계정을 생성합니다.</block>
+  <block id="565ca50cb95f086800a9a4312c2bf4a1" category="list-text">OC-SERVICE-ACCOUNT.YAML이라는 서비스 계정 파일을 생성합니다.</block>
+  <block id="210c5331ab46caa141e6ac9d5aeb1bee" category="paragraph">필요에 따라 이름 및 네임스페이스를 조정합니다. 여기에서 변경한 경우 다음 단계에서 동일한 변경 사항을 적용해야 합니다.</block>
+  <block id="605443509a67749999ab3b0d3ba43e8b" category="list-text">서비스 계정 적용:</block>
+  <block id="d7f435fa7cf0bd0868423fe3be23c07e" category="list-text">인증 요구 사항에 따라 사용자 지정 역할 바인딩을 만듭니다.</block>
+  <block id="4759a5a8a6e530a07d366d458377d18b" category="list-text">OC-clusterrobinding.YAML이라는 ClusterRoleBinding 파일을 만듭니다.</block>
+  <block id="28f58929cb9b848d6403270c1e3c1c7b" category="list-text">클러스터에 필요한 RBAC 승인을 구성합니다.</block>
+  <block id="0b644a2f3f62a8ba3f0ed9c3194a6f5d" category="paragraph">전체 관리 권한을 부여하고 Cloud Manager에서 Astra Trident를 설치할 수 있습니다.</block>
+  <block id="c6c2bc2133c73ae2516508de9a2b5869" category="list-text">클러스터 역할 바인딩을 적용합니다.</block>
+  <block id="b6e00a7dda090ccd5afd1c904d80548c" category="list-text">'&lt;context&gt;'을(를) 설치에 적합한 컨텍스트로 대체하여 서비스 계정 암호를 나열합니다.</block>
+  <block id="f087976277d273660b942918b43af841" category="paragraph">출력의 끝은 다음과 유사합니다.</block>
+  <block id="34e6e63f528ac4e4d0300281b4ba2af5" category="paragraph">제탑 배열의 각 요소에 대한 지수는 0으로 시작합니다. 위의 예에서 OC-SERVICE-ACCOUNT-dockercfg-vhz87 인덱스는 0이고 OC-SERVICE-ACCOUNT-TOKEN-r59kr 인덱스는 1입니다. 출력에서 "token"이라는 단어가 포함된 서비스 계정 이름의 인덱스를 기록해 둡니다.</block>
+  <block id="d3727d544efa902d0381ec79cec3d488" category="list-text">다음과 같이 kubecononfig를 생성합니다.</block>
+  <block id="ed6be01d66e94b422222a328f085d0bc" category="list-text">create-kubecononfig.sh 파일을 만듭니다. 다음 스크립트 시작 부분의 token_index를 올바른 값으로 바꿉니다.</block>
+  <block id="7d164f3971b504d6203cf274cc77dd35" category="list-text">Kubernetes 클러스터에 적용할 명령을 소스 하십시오.</block>
+  <block id="922c92b70dc30bbc8f03dd7e7c4abf3d" category="paragraph">결과로 생성된 'kubecononfig-sa' 파일을 사용하여 OpenShift 클러스터를 Cloud Manager에 추가할 수 있습니다.</block>
+  <block id="0c6a9a1e3ba06deae014e58e617bd162" category="sidebar">OpenShift의 Kubernetes 클러스터</block>
+  <block id="0ec3c7d00da8bde7e119875963ce517b" category="sidebar">OpenShift에서 클러스터를 추가합니다</block>
 </blocks>

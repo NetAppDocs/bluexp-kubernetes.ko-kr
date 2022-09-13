@@ -18,6 +18,8 @@ indexpage:
       url: "/requirements/kubernetes-reqs-aks.html"
     - title: Google Cloud의 Kubernetes 클러스터
       url: "/requirements/kubernetes-reqs-gke.html"
+    - title: OpenShift의 Kubernetes 클러스터
+      url: "/requirements/kubernetes-reqs-openshift.html"
   - title: Kubernetes 클러스터 추가
     links:
     - title: AWS에서 클러스터 추가
@@ -26,6 +28,8 @@ indexpage:
       url: "/task/task-kubernetes-discover-azure.html"
     - title: Google Cloud에서 클러스터를 추가합니다
       url: "/task/task-kubernetes-discover-gke.html"
+    - title: OpenShift에서 클러스터를 추가합니다
+      url: "/task/task-kubernetes-discover-openshift.html"
   - title: Kubernetes 클러스터 관리
     links:
     - title: Astra Trident를 설치합니다
