@@ -23,15 +23,11 @@ NOTE: 이 항목에서는 _Kubernetes cluster_를 사용합니다. 여기서 구
 
 == 요구 사항
 
-아스트라 트리덴트:: Astra Trident의 최신 버전 4개 중 하나가 필요합니다. Cloud Manager에서 Astra Trident를 직접 설치할 수 있습니다. 당신은 해야 한다 link:https://docs.netapp.com/us-en/trident/trident-get-started/requirements.html["사전 요구 사항을 검토합니다"^] Astra Trident를 설치하기 전
-
-
-Astra Trident를 업그레이드하려면 link:https://docs.netapp.com/us-en/trident/trident-managing-k8s/upgrade-operator.html["운영자와 함께 업그레이드하십시오"^].
-
+아스트라 트리덴트:: Astra Trident의 최신 버전 4개 중 하나가 필요합니다. Cloud Manager에서 Astra Trident를 직접 설치 또는 업그레이드할 수 있습니다. 당신은 해야 한다 link:https://docs.netapp.com/us-en/trident/trident-get-started/requirements.html["사전 요구 사항을 검토합니다"^] Astra Trident를 설치하기 전
 Cloud Volumes ONTAP:: Cloud Volumes ONTAP는 Kubernetes 클러스터와 동일한 테넌시 계정, 작업 공간 및 커넥터 아래의 Cloud Manager에 있어야 합니다. https://docs.netapp.com/us-en/trident/trident-use/backends.html["구성 단계를 보려면 Astra Trident 문서로 이동합니다"^].
-Cloud Manager 커넥터:: Connector는 필요한 권한으로 Google에서 실행 중이어야 합니다. <<Prepare a Connector,아래에서 자세히 알아보십시오>>.
-네트워크 연결:: Kubernetes 클러스터와 Connector 간, Kubernetes 클러스터와 Cloud Volumes ONTAP 사이에 네트워크 연결이 필요합니다. <<Review networking requirements,아래에서 자세히 알아보십시오>>.
-RBAC 인증:: Cloud Manager는 Active Directory를 사용 또는 사용하지 않는 RBAC 지원 클러스터를 지원합니다. Cloud Manager Connector 역할은 각 GKE 클러스터에서 권한이 부여되어야 합니다. <<Set up RBAC authorization,아래에서 자세히 알아보십시오>>.
+Cloud Manager 커넥터:: Connector는 필요한 권한으로 Google에서 실행 중이어야 합니다.  a Connector,아래에서 자세히 알아보십시오.
+네트워크 연결:: Kubernetes 클러스터와 Connector 간, Kubernetes 클러스터와 Cloud Volumes ONTAP 사이에 네트워크 연결이 필요합니다.  networking requirements,아래에서 자세히 알아보십시오.
+RBAC 인증:: Cloud Manager는 Active Directory를 사용 또는 사용하지 않는 RBAC 지원 클러스터를 지원합니다. Cloud Manager Connector 역할은 각 GKE 클러스터에서 권한이 부여되어야 합니다.  up RBAC authorization,아래에서 자세히 알아보십시오.
 
 
 

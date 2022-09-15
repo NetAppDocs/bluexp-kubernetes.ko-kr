@@ -20,11 +20,7 @@ Cloud Manager를 사용하여 자체 관리되는 OpenShift Kubernetes 클러스
 
 == 요구 사항
 
-아스트라 트리덴트:: Astra Trident의 최신 버전 4개 중 하나가 필요합니다. Cloud Manager에서 Astra Trident를 직접 설치할 수 있습니다. 당신은 해야 한다 link:https://docs.netapp.com/us-en/trident/trident-get-started/requirements.html["사전 요구 사항을 검토합니다"^] Astra Trident를 설치하기 전
-
-
-Astra Trident를 업그레이드하려면 link:https://docs.netapp.com/us-en/trident/trident-managing-k8s/upgrade-operator.html["운영자와 함께 업그레이드하십시오"^].
-
+아스트라 트리덴트:: Astra Trident의 최신 버전 4개 중 하나가 필요합니다. Cloud Manager에서 Astra Trident를 직접 설치 또는 업그레이드할 수 있습니다. 당신은 해야 한다 link:https://docs.netapp.com/us-en/trident/trident-get-started/requirements.html["사전 요구 사항을 검토합니다"^] Astra Trident를 설치하기 전
 Cloud Volumes ONTAP:: Cloud Volumes ONTAP를 클러스터에 대한 백엔드 스토리지로 설정해야 합니다. https://docs.netapp.com/us-en/trident/trident-use/backends.html["구성 단계를 보려면 Astra Trident 문서로 이동합니다"^].
 Cloud Manager 커넥터:: Kubernetes 클러스터를 임포트 및 관리하려면 Cloud Manager Connector가 필요합니다. 새 Connector를 만들거나 클라우드 공급자에 대한 필수 권한이 있는 기존 Connector를 사용해야 합니다.
 +
@@ -36,7 +32,7 @@ Cloud Manager 커넥터:: Kubernetes 클러스터를 임포트 및 관리하려�
 
 --
 네트워크 연결:: Kubernetes 클러스터와 Connector 간, Kubernetes 클러스터와 Cloud Volumes ONTAP 사이에 네트워크 연결이 필요합니다.
-RBAC 권한이 있는 Kubernetes 구성 파일(kubecononfig):: OpenShift 클러스터를 가져오려면 다른 기능을 활성화하는 데 필요한 RBAC 권한이 있는 kubecononfig 파일이 필요합니다. <<Create a kubeconfig file>>.
+RBAC 권한이 있는 Kubernetes 구성 파일(kubecononfig):: OpenShift 클러스터를 가져오려면 다른 기능을 활성화하는 데 필요한 RBAC 권한이 있는 kubecononfig 파일이 필요합니다.  a kubeconfig file.
 +
 --
 * 백업 및 복원: 백업 및 복원에는 기본 인증만 필요합니다.

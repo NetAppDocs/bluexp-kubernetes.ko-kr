@@ -304,9 +304,6 @@
   <block id="974030a30a48754684d05541fd5e96c9" category="inline-link-macro">Google Kubernetes Engine(GKE)</block>
   <block id="213acaa88814071409958acdc9192518" category="section-title">Astra Trident 구축을 지원했습니다</block>
   <block id="22d8ff517038ce2f90897c500f9ea50f" category="inline-link-macro">사전 요구 사항을 검토합니다</block>
-  <block id="74347238ab27b50c48fd1aa9e68844e4" category="inline-link-macro">운영자와 함께 업그레이드하십시오</block>
-  <block id="7c0e36f1a9c7af2d74760d191974b0e0" category="paragraph">Astra Trident를 업그레이드하려면 <block ref="67d80849aeaf50fe569386f344ed4725" category="inline-link-macro-rx"></block>.</block>
-  <block id="c4541926fe853a3614406482ac212fff" category="list-text">Astra Trident의 최신 버전 4개 중 하나가 필요합니다. Cloud Manager에서 Astra Trident를 직접 설치할 수 있습니다. 당신은 해야 한다 <block ref="8da0f2411c72d1a5ebe475af99243801" category="inline-link-macro-rx"></block> Astra Trident를 설치하기 전</block>
   <block id="6b3760e9ce2bfd92685feda2753e312f" category="list-text">백업 및 복원</block>
   <block id="2dcb994cc66baaaa5ac5f51a666cc470" category="list-text">백업 및 복원에는 기본 인증만 필요합니다.</block>
   <block id="e38848cde65bc177038607eba51773c3" category="list-text">Astra 트리덴트 설치</block>
@@ -319,7 +316,6 @@
   <block id="a296388d715a55c1152745b7367fc0c5" category="paragraph">Cloud Manager를 사용하여 스토리지 클래스를 추가하려면 확장 인증을 추가합니다.</block>
   <block id="b8b9eab8c1ed7b79387652490f5724ec" category="open-title">Trident를 설치합니다</block>
   <block id="47b31bee79140af784a118e6eb34fdbd" category="paragraph">명령줄을 사용하여 전체 인증을 제공하고 Cloud Manager에서 Astra Trident를 설치할 수 있도록 합니다.</block>
-  <block id="74ac826b742735257c4c43faffe62b41" category="list-text">Astra Trident의 최신 버전 4개 중 하나가 필요합니다. Cloud Manager에서 Astra Trident를 직접 설치할 수 있습니다. 당신은 해야 한다 <block ref="8da0f2411c72d1a5ebe475af99243801" category="inline-link-macro-rx"></block> Astra Trident를 설치하기 전</block>
   <block id="05a0030833e70e4af624c3716f988104" category="list-text">귀하의 승인 요구 사항에 따라 다음 텍스트가 포함된 YAML 파일을 생성합니다. 'Subjects:kind:' 변수를 사용자 이름으로 바꾸고 'Subjects:user:'를 위에서 설명한 대로 시스템에서 할당한 관리 ID의 개체 ID 또는 권한이 있는 사용자의 사용자 이름으로 바꿉니다.</block>
   <block id="c933a937af3266562155099a4ad44e14" category="paragraph"><block ref="c933a937af3266562155099a4ad44e14" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d1c51ee4ad82e26c7069e126c0a5d25d" category="paragraph">다른 기능을 사용하려면 다른 권한이 필요합니다.</block>
@@ -535,4 +531,6 @@
   <block id="0ec3c7d00da8bde7e119875963ce517b" category="sidebar">OpenShift에서 클러스터를 추가합니다</block>
   <block id="9a1523c9f261730956627967961b03ba" category="list-text">당신이 만든 쿠베코무화나 파일 <block ref="853bbee8a9a9e7ed0c6dbe47e266bf3d" category="inline-link-macro-rx"></block>.</block>
   <block id="d68d1fb21874c919e4b91a231a5f7974" category="list-text">에서 만든 kubecon무화나 파일을 업로드합니다 <block ref="853bbee8a9a9e7ed0c6dbe47e266bf3d" category="inline-link-macro-rx"></block>. Kubernetes 클러스터를 선택하고 * Next * 를 선택합니다.</block>
+  <block id="9492e4195bc2860d8494e098fbce7244" category="list-text">Astra Trident의 최신 버전 4개 중 하나가 필요합니다. Cloud Manager에서 Astra Trident를 직접 설치 또는 업그레이드할 수 있습니다. 당신은 해야 한다 <block ref="8da0f2411c72d1a5ebe475af99243801" category="inline-link-macro-rx"></block> Astra Trident를 설치하기 전</block>
+  <block id="bfb0695c22e145f8bb8fffaba822ec00" category="list-text">Astra Trident의 최신 버전 4개 중 하나가 필요합니다. Cloud Manager에서 Astra Trident를 직접 설치 또는 업그레이드할 수 있습니다. 당신은 해야 한다 <block ref="8da0f2411c72d1a5ebe475af99243801" category="inline-link-macro-rx"></block> Astra Trident를 설치하기 전</block>
 </blocks>
