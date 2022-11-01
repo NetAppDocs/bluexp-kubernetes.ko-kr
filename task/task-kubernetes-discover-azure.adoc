@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: /task/task-kubernetes-discover-azure.html 
 keywords: kubernetes, k8s, discover kubernetes cluster, discover k8s, import kubernetes cluster, azure, aks, kubernetes support 
-summary: Cloud Manager에 Kubernetes 클러스터를 추가하여 영구 볼륨의 백업을 Azure에 시작할 수 있습니다. 
+summary: BlueXP에 Kubernetes 클러스터를 추가하여 영구 볼륨을 Azure에 백업할 수 있습니다. 
 ---
-= Cloud Manager에 Azure Kubernetes 클러스터를 추가합니다
+= Azure Kubernetes 클러스터를 BlueXP에 추가합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Cloud Manager에 Kubernetes 클러스터를 추가하여 영구 볼륨�
 
 
 [role="lead"]
-Kubernetes 클러스터를 Cloud Manager로 검색 또는 임포트하여 영구 볼륨을 Azure에 백업할 수 있습니다.
+Kubernetes 클러스터를 검색하고 BlueXP로 가져와 영구 볼륨을 Azure에 백업할 수 있습니다.
 
 
 
@@ -35,9 +35,9 @@ image:screenshot-k8s-aks-discover.png["선택한 Kubernetes 클러스터를 보�
 
 
 
-Cloud Manager는 Kubernetes 클러스터를 Canvas에 추가합니다.
+BlueXP는 Kubernetes 클러스터를 Canvas에 추가합니다.
 
-image:screenshot-k8s-aks-canvas.png["Kubernetes 클러스터를 보여 주는 Cloud Manager의 Canvas 스크린샷"]
+image:screenshot-k8s-aks-canvas.png["Kubernetes 클러스터를 보여 주는 BlueXP의 Canvas 스크린샷"]
 
 
 
@@ -65,4 +65,4 @@ image:screenshot-k8s-aks-import-2.png["인증 기관, 클라이언트 키 및 �
 
 
 
-Cloud Manager는 Kubernetes 클러스터를 Canvas에 추가합니다.
+BlueXP는 Kubernetes 클러스터를 Canvas에 추가합니다.

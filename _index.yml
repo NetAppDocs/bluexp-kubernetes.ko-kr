@@ -1,6 +1,6 @@
 ---
 indexpage:
-  lead: 고급 데이터 관리를 위해 Cloud Manager에 관리 Kubernetes 클러스터를 추가하십시오.
+  lead: 고급 데이터 관리를 위해 관리되는 Kubernetes 클러스터를 BlueXP에 추가하십시오.
   tiles:
   - title: 시작하십시오
     links:
@@ -42,7 +42,7 @@ indexpage:
       url: "/task/task-k8s-manage-remove-cluster.html"
     - title: 데이터 서비스 지원
       url: "/task/task-kubernetes-enable-services.html"
-  - title: Cloud Manager에 대한 지원을 받으십시오
+  - title: BlueXP에 대한 도움을 받으십시오
     links:
     - title: 지원을 위해 등록하십시오
       url: "/support/task-support-registration.html"

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: /requirements/kubernetes-reqs-openshift.html 
 keywords: kubernetes, k8s, discover kubernetes cluster, discover k8s, openshift, oc, kubernetes support 
-summary: Cloud Manager를 사용하여 자체 관리되는 OpenShift Kubernetes 클러스터를 추가하고 관리할 수 있습니다. 클러스터를 Cloud Manager에 추가하려면 먼저 다음 요구사항을 충족해야 합니다. 
+summary: BlueXP를 사용하여 자체 관리되는 OpenShift Kubernetes 클러스터를 추가하고 관리할 수 있습니다. 클러스터를 BlueXP에 추가하려면 다음 요구 사항을 충족해야 합니다. 
 ---
 = OpenShift의 Kubernetes 클러스터 요구사항
 :hardbreaks:
@@ -14,15 +14,15 @@ summary: Cloud Manager를 사용하여 자체 관리되는 OpenShift Kubernetes 
 
 
 [role="lead"]
-Cloud Manager를 사용하여 자체 관리되는 OpenShift Kubernetes 클러스터를 추가하고 관리할 수 있습니다. 클러스터를 Cloud Manager에 추가하려면 먼저 다음 요구사항을 충족해야 합니다.
+BlueXP를 사용하여 자체 관리되는 OpenShift Kubernetes 클러스터를 추가하고 관리할 수 있습니다. 클러스터를 BlueXP에 추가하려면 다음 요구 사항을 충족해야 합니다.
 
 
 
 == 요구 사항
 
-아스트라 트리덴트:: Astra Trident의 최신 버전 4개 중 하나가 필요합니다. Cloud Manager에서 Astra Trident를 직접 설치 또는 업그레이드할 수 있습니다. 당신은 해야 한다 link:https://docs.netapp.com/us-en/trident/trident-get-started/requirements.html["사전 요구 사항을 검토합니다"^] Astra Trident를 설치하기 전
+아스트라 트리덴트:: Astra Trident의 최신 버전 4개 중 하나가 필요합니다. BlueXP에서 Astra Trident를 직접 설치하거나 업그레이드할 수 있습니다. 당신은 해야 한다 link:https://docs.netapp.com/us-en/trident/trident-get-started/requirements.html["사전 요구 사항을 검토합니다"^] Astra Trident를 설치하기 전
 Cloud Volumes ONTAP:: Cloud Volumes ONTAP를 클러스터에 대한 백엔드 스토리지로 설정해야 합니다. https://docs.netapp.com/us-en/trident/trident-use/backends.html["구성 단계를 보려면 Astra Trident 문서로 이동합니다"^].
-Cloud Manager 커넥터:: Kubernetes 클러스터를 임포트 및 관리하려면 Cloud Manager Connector가 필요합니다. 새 Connector를 만들거나 클라우드 공급자에 대한 필수 권한이 있는 기존 Connector를 사용해야 합니다.
+BlueXP 커넥터:: Kubernetes 클러스터를 가져오고 관리하려면 BlueXP Connector가 필요합니다. 새 Connector를 만들거나 클라우드 공급자에 대한 필수 권한이 있는 기존 Connector를 사용해야 합니다.
 +
 --
 * link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html#prepare-a-connector["AWS 커넥터"]
@@ -36,11 +36,11 @@ RBAC 권한이 있는 Kubernetes 구성 파일(kubecononfig):: OpenShift 클러�
 +
 --
 * 백업 및 복원: 백업 및 복원에는 기본 인증만 필요합니다.
-* 스토리지 클래스 추가: Cloud Manager를 사용하여 스토리지 클래스를 추가하고 클러스터에서 백엔드의 변경 사항을 모니터링하려면 확장된 인증이 필요합니다.
-* Astra Trident 설치: Cloud Manager에 Astra Trident를 설치하려면 전체 인증을 제공해야 합니다.
+* 스토리지 클래스 추가: BlueXP를 사용하여 스토리지 클래스를 추가하고 클러스터에서 백엔드의 변경 사항을 모니터링하려면 확장된 인증이 필요합니다.
+* Astra Trident 설치: BlueXP에 Astra Trident를 설치하려면 전체 인증을 제공해야 합니다.
 +
 
-NOTE: Astra Trident를 설치할 때 Cloud Manager는 Astra Trident와 스토리지 클러스터와 통신하는 데 필요한 자격 증명이 포함된 Astra Trident 백엔드 및 Kubernetes 암호를 설치합니다.
+NOTE: Astra Trident를 설치할 때 BlueXP는 Astra Trident가 스토리지 클러스터와 통신해야 하는 자격 증명이 포함된 Astra Trident 백엔드 및 Kubernetes 암호를 설치합니다.
 
 
 
@@ -51,7 +51,7 @@ NOTE: Astra Trident를 설치할 때 Cloud Manager는 Astra Trident와 스토리
 
 == kubecononfig 파일을 생성합니다
 
-OpenShift CLI를 사용하여 kubeconfig 파일을 만들어 Cloud Manager로 가져옵니다.
+OpenShift CLI를 사용하여 kubecon무화과 파일을 만들어 BlueXP로 가져옵니다.
 
 .단계
 . 관리 사용자가 있는 공용 URL에서 OC 로그인을 사용하여 OpenShift CLI에 로그인합니다.
@@ -174,7 +174,7 @@ subjects:
 --
 .스토리지 클래스
 --
-Cloud Manager를 사용하여 스토리지 클래스를 추가하려면 확장 인증을 추가합니다.
+BlueXP를 사용하여 저장소 클래스를 추가하려면 확장된 권한을 추가합니다.
 
 [source, yaml]
 ----
@@ -240,7 +240,7 @@ subjects:
 --
 .Trident를 설치합니다
 --
-전체 관리 권한을 부여하고 Cloud Manager에서 Astra Trident를 설치할 수 있습니다.
+전체 관리자 권한을 부여하고 BlueXP에서 Astra Trident를 설치할 수 있습니다.
 
 [source, cli]
 ----
@@ -368,4 +368,4 @@ source create-kubeconfig.sh
 
 
 
-결과로 생성된 'kubecononfig-sa' 파일을 사용하여 OpenShift 클러스터를 Cloud Manager에 추가할 수 있습니다.
+결과를 사용합니다 `kubeconfig-sa` 파일 - BlueXP에 OpenShift 클러스터를 추가할 수 있습니다.

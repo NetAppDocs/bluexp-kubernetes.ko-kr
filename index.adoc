@@ -2,7 +2,7 @@
 layout: astra 
 sidebar: sidebar 
 permalink: index.html 
-summary: 고급 데이터 관리를 위해 Cloud Manager에 관리 Kubernetes 클러스터를 추가하십시오. 
+summary: 고급 데이터 관리를 위해 관리되는 Kubernetes 클러스터를 BlueXP에 추가하십시오. 
 ---
 = Kubernetes 클러스터 문서
 :hardbreaks:

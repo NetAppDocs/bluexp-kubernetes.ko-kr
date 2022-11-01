@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concept-kubernetes.html 
-keywords: kubernetes, k8s, back up kubernetes, back up k8s, discover kubernetes cluster, discover k8s, amazon eks, eks, azure, aks, back up persistent volumes, persistent volumes, kubernetes support 
+keywords: kubernetes, k8s, back up kubernetes, back up k8s, discover kubernetes cluster, discover k8s, amazon eks, eks, azure, aks, back up persistent volumes, persistent volumes, kubernetes support, cloud manager 
 summary: Astra Trident는 NetApp에서 관리하며 완벽한 지원이 제공되는 오픈 소스 프로젝트입니다. Astra Trident는 Kubernetes 및 영구 볼륨 프레임워크와 기본적으로 통합되어 NetApp 스토리지 플랫폼을 함께 실행하는 시스템에서 볼륨을 원활하게 프로비저닝 및 관리합니다. 
 ---
-= Cloud Manager의 Kubernetes 데이터 관리
+= BlueXP의 Kubernetes 데이터 관리
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -20,7 +20,7 @@ Astra Trident는 NetApp에서 관리하며 완벽한 지원이 제공되는 오�
 
 == 피처
 
-Trident 운영자를 사용해 구축된 Astra Trident의 호환 버전을 사용하면 Cloud Manager를 사용하여 Kubernetes 클러스터를 직접 관리할 수 있습니다.
+Trident 운영자를 사용하여 구축된 Astra Trident의 호환 버전을 사용하면 BlueXP(이전의 Cloud Manager)를 사용하여 Kubernetes 클러스터를 직접 관리할 수 있습니다.
 
 * Astra Trident를 설치하거나 업그레이드합니다.
 * 하이브리드 클라우드 인프라의 일부로 클러스터를 추가하고 관리합니다.
@@ -32,7 +32,7 @@ Trident 운영자를 사용해 구축된 Astra Trident의 호환 버전을 사�
 
 == 지원되는 Kubernetes 구축
 
-Cloud Manager는 다음과 같은 환경에서 실행되는 관리형 Kubernetes 클러스터를 지원합니다.
+BlueXP는 다음과 같은 환경에서 실행되는 관리형 Kubernetes 클러스터를 지원합니다.
 
 * link:./requirements/kubernetes-reqs-aws.html["Amazon Elastic Kubernetes Service(Amazon EKS)"]
 * link:./requirements/kubernetes-reqs-aks.html["Microsoft Azure Kubernetes Service(AKS)"]
@@ -45,7 +45,7 @@ Cloud Manager는 다음과 같은 환경에서 실행되는 관리형 Kubernetes
 
 Astra Trident의 최신 버전 4개 중 하나 link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Trident 연산자를 사용하여 배포됩니다"^] 필수 항목입니다.
 
-Cloud Manager에서 직접 Astra Trident의 최신 버전을 설치하거나 업그레이드할 수 있습니다.
+BlueXP에서 Astra Trident의 최신 버전을 직접 설치하거나 업그레이드할 수 있습니다.
 
 link:https://docs.netapp.com/us-en/trident/trident-get-started/requirements.html["Astra Trident 사전 요구 사항을 검토합니다"^]
 
@@ -59,4 +59,4 @@ NetApp Astra Trident는 각 Kubernetes 클러스터에 설치해야 하며, Clou
 
 == 비용
 
-Cloud Manager에서 Kubernetes 클러스터를 _DISTANGE_사용하는 비용은 없지만 Cloud Backup Service를 사용하여 영구 볼륨을 백업할 경우 비용이 청구됩니다.
+BlueXP의 Kubernetes 클러스터 _검색_에 대한 비용은 없지만 Cloud Backup Service를 사용하여 영구 볼륨을 백업할 경우 비용이 청구됩니다.

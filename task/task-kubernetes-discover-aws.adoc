@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: /task/task-kubernetes-discover-aws.html 
 keywords: kubernetes, k8s, discover kubernetes cluster, discover k8s, amazon eks, eks, kubernetes support, import kubernetes cluster, import, amazon s3, amazon, aws 
-summary: 'Amazon Elastic Kubernetes Service(Amazon EKS) 클러스터를 Cloud Manager에 추가하면 영구 볼륨의 백업을 Amazon S3에 시작할 수 있습니다.' 
+summary: 'BlueXP에 Amazon EKS(Amazon Elastic Kubernetes Service) 클러스터를 추가하여 영구 볼륨의 백업을 Amazon S3에 시작할 수 있습니다.' 
 ---
-= Cloud Manager에 Amazon Kubernetes 클러스터를 추가합니다
+= BlueXP에 Amazon Kubernetes 클러스터를 추가합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 'Amazon Elastic Kubernetes Service(Amazon EKS) 클러스터를 Cloud Ma
 
 
 [role="lead"]
-Kubernetes 클러스터를 Cloud Manager로 검색 또는 임포트하여 영구 볼륨을 Amazon S3에 백업할 수 있습니다.
+Kubernetes 클러스터를 검색하고 BlueXP로 가져와 영구 볼륨을 Amazon S3에 백업할 수 있습니다.
 
 
 
@@ -35,9 +35,9 @@ image:screenshot-discover-kubernetes-aws-2.png["선택한 AWS 지역 및 Kuberne
 
 
 
-Cloud Manager는 Kubernetes 클러스터를 Canvas에 추가합니다.
+BlueXP는 Kubernetes 클러스터를 Canvas에 추가합니다.
 
-image:screenshot-kubernetes-canvas.png["Kubernetes 클러스터를 보여 주는 Cloud Manager의 Canvas 스크린샷"]
+image:screenshot-kubernetes-canvas.png["Kubernetes 클러스터를 보여 주는 BlueXP의 Canvas 스크린샷"]
 
 
 
@@ -56,4 +56,4 @@ image:screenshot-k8s-aks-import-1.png["구성 파일 및 사용 가능한 클러
 . Kubernetes 클러스터를 선택하고 * Next * 를 클릭합니다.
 
 
-Cloud Manager는 Kubernetes 클러스터를 Canvas에 추가합니다.
+BlueXP는 Kubernetes 클러스터를 Canvas에 추가합니다.

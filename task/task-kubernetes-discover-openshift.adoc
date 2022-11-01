@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: /task/task-kubernetes-discover-openshift.html 
 keywords: kubernetes, k8s, discover kubernetes cluster, discover k8s, openshift, kubernetes support, import kubernetes cluster, import 
-summary: 자체 관리되는 OpenShift 클러스터를 Cloud Manager로 임포트하여 영구 볼륨을 클라우드 공급자에게 백업할 수 있습니다. 
+summary: 자체 관리되는 OpenShift 클러스터를 BlueXP로 가져와 영구 볼륨을 클라우드 공급자에게 백업할 수 있습니다. 
 ---
-= Cloud Manager에 OpenShift 클러스터를 추가합니다
+= BlueXP에 OpenShift 클러스터를 추가합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 자체 관리되는 OpenShift 클러스터를 Cloud Manager로 임포�
 
 
 [role="lead"]
-자체 관리되는 OpenShift 클러스터를 Cloud Manager로 임포트하여 영구 볼륨을 클라우드 공급자에게 백업할 수 있습니다.
+자체 관리되는 OpenShift 클러스터를 BlueXP로 가져와 영구 볼륨을 클라우드 공급자에게 백업할 수 있습니다.
 
 
 
@@ -42,4 +42,4 @@ image:screenshot-oc-certs.png["클러스터 인증서 업로드 화면의 스크
 
 
 
-Cloud Manager는 Kubernetes 클러스터를 Canvas에 추가합니다.
+BlueXP는 Kubernetes 클러스터를 Canvas에 추가합니다.

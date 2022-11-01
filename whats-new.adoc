@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
-summary: Cloud Manager의 Kubernetes 새 기능에 대해 알아보십시오. 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, cloud manager' 
+summary: BlueXP의 Kubernetes의 새로운 기능에 대해 알아보십시오. 
 ---
-= Cloud Manager의 Kubernetes의 새로운 기능
+= BlueXP의 Kubernetes의 새로운 기능
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Cloud Manager의 Kubernetes 새 기능에 대해 알아보십시오.
 
 
 [role="lead"]
-Cloud Manager의 Kubernetes 새 기능에 대해 알아보십시오.
+Cloud Manager(이전의 Cloud Manager)의 Kubernetes에서 새로운 기능에 대해 알아보십시오.
 
 
 
