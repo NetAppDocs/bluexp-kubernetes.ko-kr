@@ -26,9 +26,21 @@ NOTE: 스토리지 클래스가 정의되지 않은 경우 클러스터에 필�
 .단계
 . Canvas에서 Kubernetes 작업 환경을 Cloud Volumes ONTAP 또는 ONTAP용 Amazon FSx 작업 환경으로 끌어다 놓아 스토리지 클래스 마법사를 엽니다.
 . 스토리지 클래스의 이름을 입력합니다.
-. Filesystem * 또는 * Block * storage를 선택합니다. Block * 스토리지인 경우 파일 시스템 유형(fstype)을 선택합니다.
+. Filesystem * 또는 * Block * storage를 선택합니다.
 +
-image:screenshot-k8s-storage-fstypes.png["K8s 스토리지 클래스를 구성할 때 블록 스토리지에 대한 fstype 옵션을 보여 주는 스크린샷"]
+.. Block * 스토리지인 경우 파일 시스템 유형(fstype)을 선택합니다.
++
+image:screenshot-k8s-storage-fstype.png["K8s 스토리지 클래스를 구성할 때 블록 스토리지에 대한 fstype 옵션을 보여 주는 스크린샷"]
+
+.. Block * 또는 * Filesystem * 스토리지인 경우 스토리지 클래스 경제성이 사용되도록 선택할 수 있습니다.
++
+image:screenshot-k8s-storage-economy.png["블록 또는 파일 K8s 스토리지 클래스를 구성할 때 스토리지 절약 옵션을 보여 주는 스크린샷"]
+
++
+
+NOTE: 스토리지급 경제성이 있는 경우 백업 및 복구가 지원되지 않습니다.
+
+
 
 . 볼륨 확장, 볼륨 바인딩 및 기본 스토리지 클래스에 대한 옵션을 선택합니다. 다음 * 을 클릭합니다.
 . 클러스터에 연결할 작업 환경을 선택합니다. 추가 * 를 클릭합니다.
