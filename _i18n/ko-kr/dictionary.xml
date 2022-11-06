@@ -606,6 +606,6 @@
   <block id="ffa448ca3a4e90a2baa6bcb5e38dfb5c" category="paragraph"><block ref="ffa448ca3a4e90a2baa6bcb5e38dfb5c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="45c054bee9c262cc9a4a08ee09307ceb" category="admonition">스토리지급 경제성이 있는 경우 백업 및 복구가 지원되지 않습니다.</block>
   <block id="be35568ff63793a98ea03ab0d34ae986" category="paragraph">BlueXP(이전의 Cloud Manager)의 Kubernetes 새 기능에 대해 알아보십시오.</block>
-  <block id="6fc9f5ba6febd413f8f3db3fdd777f58" category="section-title">2022년 10월 30일</block>
   <block id="084fbbb062290ef487eac98d44edd278" category="paragraph">시기 <block ref="44765f3a3e8511cc80b0083ae1e5f436" category="inline-link-macro-rx"></block>이제 블록 또는 파일 시스템 스토리지에 대해 스토리지 클래스 경제성을 설정할 수 있습니다.</block>
+  <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022년 11월 6일</block>
 </blocks>
