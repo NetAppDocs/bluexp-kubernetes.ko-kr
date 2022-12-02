@@ -20,7 +20,7 @@ Astra Trident는 NetApp에서 관리하며 완벽한 지원이 제공되는 오�
 
 == 피처
 
-Trident 운영자를 사용하여 구축된 Astra Trident의 호환 버전을 사용하면 BlueXP(이전의 Cloud Manager)를 사용하여 Kubernetes 클러스터를 직접 관리할 수 있습니다.
+Trident 운영자를 사용해 구축된 Astra Trident의 호환 버전을 사용하면 를 사용하여 Kubernetes 클러스터를 직접 관리할 수 있습니다 link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] (이전의 Cloud Manager).
 
 * Astra Trident를 설치하거나 업그레이드합니다.
 * 하이브리드 클라우드 인프라의 일부로 클러스터를 추가하고 관리합니다.
