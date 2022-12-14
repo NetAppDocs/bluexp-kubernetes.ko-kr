@@ -32,7 +32,7 @@ BlueXP 커넥터:: Kubernetes 클러스터를 가져오고 관리하려면 BlueX
 
 --
 네트워크 연결:: Kubernetes 클러스터와 Connector 간, Kubernetes 클러스터와 Cloud Volumes ONTAP 사이에 네트워크 연결이 필요합니다.
-RBAC 권한이 있는 Kubernetes 구성 파일(kubecononfig):: OpenShift 클러스터를 가져오려면 다른 기능을 활성화하는 데 필요한 RBAC 권한이 있는 kubecononfig 파일이 필요합니다.  a kubeconfig file.
+RBAC 권한이 있는 Kubernetes 구성 파일(kubecononfig):: OpenShift 클러스터를 가져오려면 다른 기능을 활성화하는 데 필요한 RBAC 권한이 있는 kubecononfig 파일이 필요합니다. <<kubecononfig 파일을 생성합니다>>.
 +
 --
 * 백업 및 복원: 백업 및 복원에는 기본 인증만 필요합니다.
@@ -368,4 +368,5 @@ source create-kubeconfig.sh
 
 
 
+.결과
 결과를 사용합니다 `kubeconfig-sa` 파일 - BlueXP에 OpenShift 클러스터를 추가할 수 있습니다.

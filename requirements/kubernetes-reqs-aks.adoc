@@ -25,9 +25,9 @@ NOTE: 이 항목에서는 AKS 및 자체 관리 Kubernetes 클러스터의 구�
 
 아스트라 트리덴트:: Astra Trident의 최신 버전 4개 중 하나가 필요합니다. BlueXP에서 Astra Trident를 직접 설치하거나 업그레이드할 수 있습니다. 당신은 해야 한다 link:https://docs.netapp.com/us-en/trident/trident-get-started/requirements.html["사전 요구 사항을 검토합니다"^] Astra Trident를 설치하기 전
 Cloud Volumes ONTAP:: Cloud Volumes ONTAP를 클러스터에 대한 백엔드 스토리지로 설정해야 합니다. https://docs.netapp.com/us-en/trident/trident-use/backends.html["구성 단계를 보려면 Astra Trident 문서로 이동합니다"^].
-BlueXP 커넥터:: Connector는 필요한 권한을 사용하여 Azure에서 실행 중이어야 합니다.  a Connector,아래에서 자세히 알아보십시오.
-네트워크 연결:: Kubernetes 클러스터와 Connector 간, Kubernetes 클러스터와 Cloud Volumes ONTAP 사이에 네트워크 연결이 필요합니다.  networking requirements,아래에서 자세히 알아보십시오.
-RBAC 인증:: BlueXP는 Active Directory를 사용하는 RBAC 지원 클러스터를 지원합니다. 각 Azure 클러스터마다 BlueXP Connector 역할이 허가되어야 합니다.  up RBAC authorization,아래에서 자세히 알아보십시오.
+BlueXP 커넥터:: Connector는 필요한 권한을 사용하여 Azure에서 실행 중이어야 합니다. <<커넥터를 준비합니다,아래에서 자세히 알아보십시오>>.
+네트워크 연결:: Kubernetes 클러스터와 Connector 간, Kubernetes 클러스터와 Cloud Volumes ONTAP 사이에 네트워크 연결이 필요합니다. <<네트워킹 요구 사항을 검토합니다,아래에서 자세히 알아보십시오>>.
+RBAC 인증:: BlueXP는 Active Directory를 사용하는 RBAC 지원 클러스터를 지원합니다. 각 Azure 클러스터마다 BlueXP Connector 역할이 허가되어야 합니다. <<RBAC 승인을 설정합니다,아래에서 자세히 알아보십시오>>.
 
 
 
@@ -119,6 +119,7 @@ NOTE: Astra Trident를 설치할 때 BlueXP는 Astra Trident가 스토리지 클
 --
 
 
+.시작하기 전에
 RBAC ''프로젝트:이름:'' 구성은 Kubernetes 클러스터 유형에 따라 약간 다릅니다.
 
 * 관리되는 AKS 클러스터 * 를 배포하는 경우, Connector에 대해 시스템에서 할당한 관리 ID의 객체 ID가 필요합니다. 이 ID는 Azure 관리 포털에서 사용할 수 있습니다.
@@ -128,6 +129,7 @@ image:screenshot-k8s-aks-obj-id.png["Azure 관리 포털의 시스템 할당 개
 * 자체 관리되는 Kubernetes 클러스터 * 를 구축하는 경우 권한이 있는 사용자의 사용자 이름이 필요합니다.
 
 
+.단계
 클러스터 역할 및 역할 바인딩을 생성합니다.
 
 . 귀하의 승인 요구 사항에 따라 다음 텍스트가 포함된 YAML 파일을 생성합니다. 'Subjects:kind:' 변수를 사용자 이름으로 바꾸고 'Subjects:user:'를 위에서 설명한 대로 시스템에서 할당한 관리 ID의 개체 ID 또는 권한이 있는 사용자의 사용자 이름으로 바꿉니다.

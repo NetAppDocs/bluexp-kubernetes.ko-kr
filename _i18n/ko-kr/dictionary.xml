@@ -610,4 +610,15 @@
   <block id="cc8b0535948da368f832027c19b7f853" category="list-text">일련 번호 필드에 위에서 사용된 계정 일련 번호(960xxxx)를 복사해 주십시오. 이렇게 하면 계정 처리 속도가 빨라집니다.</block>
   <block id="485af08837450e02af336c55571fef57" category="paragraph">BlueXP에 Kubernetes 클러스터를 추가하여 고급 데이터 관리를 몇 가지 단계로 수행할 수 있습니다.</block>
   <block id="c0a71f242f9a20837eeb221262b5ec52" category="paragraph">사용 <block ref="541c088337155bc1f5030ebf639984c7" category="inline-link-macro-rx"></block> 단 몇 단계만으로 Kubernetes 클러스터 관리를 시작할 수 있습니다.</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">시작하기 전에</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">작업을 마친 후</block>
+  <block id="fd69c5cf902969e6fb71d043085ddee6" category="paragraph-title">결과</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
+  <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 사전 요구 사항을 검토합니다</block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
+  <block id="72cff0170f097fb9ba504afabcc27830" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> Kubernetes 클러스터를 BlueXP에 추가하십시오</block>
+  <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">네</block>
+  <block id="ea57f7b4ce8ce45779ed65b7d0c3cd80" category="paragraph-title"><block ref="569b2be0fb2eea776857d64ee5106536" category="inline-image-macro-rx" type="image"></block> 영구 볼륨 프로비저닝을 시작합니다</block>
+  <block id="3442e8b715f58fe8a7e64ea2efc92fed" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> BlueXP를 사용하여 클러스터를 관리합니다</block>
 </blocks>

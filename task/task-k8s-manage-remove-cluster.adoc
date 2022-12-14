@@ -28,4 +28,5 @@ image:screenshot-k8s-confirm-remove-cluster.png["작업 공간에서 Kubernetes 
 
 
 
+.결과
 Kubernetes 클러스터가 작업 공간에서 제거되어 Canvas에 더 이상 표시되지 않습니다.

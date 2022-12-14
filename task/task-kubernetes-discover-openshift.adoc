@@ -22,6 +22,7 @@ summary: 자체 관리되는 OpenShift 클러스터를 BlueXP로 가져와 영�
 
 Kubernetes 구성 파일을 사용하여 자체 관리되는 Kubernetes 클러스터를 가져올 수 있습니다.
 
+.시작하기 전에
 OpenShift 클러스터를 추가하기 전에 다음이 필요합니다.
 
 * 당신이 만든 쿠베코무화나 파일 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-openshift.html#create-a-kubeconfig-file["kubecononfig 파일을 생성합니다"].
@@ -42,4 +43,5 @@ image:screenshot-oc-certs.png["클러스터 인증서 업로드 화면의 스크
 
 
 
+.결과
 BlueXP는 Kubernetes 클러스터를 Canvas에 추가합니다.

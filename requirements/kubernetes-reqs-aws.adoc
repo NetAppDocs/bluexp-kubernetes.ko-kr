@@ -25,9 +25,9 @@ NOTE: 이 항목에서는 EKS 및 자체 관리 Kubernetes 클러스터에 대�
 
 아스트라 트리덴트:: Astra Trident의 최신 버전 4개 중 하나가 필요합니다. BlueXP에서 Astra Trident를 직접 설치하거나 업그레이드할 수 있습니다. 당신은 해야 한다 link:https://docs.netapp.com/us-en/trident/trident-get-started/requirements.html["사전 요구 사항을 검토합니다"^] Astra Trident를 설치하기 전
 Cloud Volumes ONTAP:: Cloud Volumes ONTAP for AWS는 클러스터를 위한 백엔드 스토리지로 설정해야 합니다. https://docs.netapp.com/us-en/trident/trident-use/backends.html["구성 단계를 보려면 Astra Trident 문서로 이동합니다"^].
-BlueXP 커넥터:: 필요한 권한이 있는 Connector가 AWS에서 실행되고 있어야 합니다.  a Connector,아래에서 자세히 알아보십시오.
-네트워크 연결:: Kubernetes 클러스터와 Connector 간, Kubernetes 클러스터와 Cloud Volumes ONTAP 사이에 네트워크 연결이 필요합니다.  networking requirements,아래에서 자세히 알아보십시오.
-RBAC 인증:: BlueXP Connector 역할은 각 Kubernetes 클러스터에서 인증되어야 합니다.  up RBAC authorization,아래에서 자세히 알아보십시오.
+BlueXP 커넥터:: 필요한 권한이 있는 Connector가 AWS에서 실행되고 있어야 합니다. <<커넥터를 준비합니다,아래에서 자세히 알아보십시오>>.
+네트워크 연결:: Kubernetes 클러스터와 Connector 간, Kubernetes 클러스터와 Cloud Volumes ONTAP 사이에 네트워크 연결이 필요합니다. <<네트워킹 요구 사항을 검토합니다,아래에서 자세히 알아보십시오>>.
+RBAC 인증:: BlueXP Connector 역할은 각 Kubernetes 클러스터에서 인증되어야 합니다. <<RBAC 승인을 설정합니다,아래에서 자세히 알아보십시오>>.
 
 
 

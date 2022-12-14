@@ -35,6 +35,7 @@ image:screenshot-discover-kubernetes-aws-2.png["선택한 AWS 지역 및 Kuberne
 
 
 
+.결과
 BlueXP는 Kubernetes 클러스터를 Canvas에 추가합니다.
 
 image:screenshot-kubernetes-canvas.png["Kubernetes 클러스터를 보여 주는 BlueXP의 Canvas 스크린샷"]
@@ -56,4 +57,5 @@ image:screenshot-k8s-aks-import-1.png["구성 파일 및 사용 가능한 클러
 . Kubernetes 클러스터를 선택하고 * Next * 를 클릭합니다.
 
 
+.결과
 BlueXP는 Kubernetes 클러스터를 Canvas에 추가합니다.

@@ -35,6 +35,7 @@ image:screenshot-k8s-aks-discover.png["선택한 Kubernetes 클러스터를 보�
 
 
 
+.결과
 BlueXP는 Kubernetes 클러스터를 Canvas에 추가합니다.
 
 image:screenshot-k8s-aks-canvas.png["Kubernetes 클러스터를 보여 주는 BlueXP의 Canvas 스크린샷"]
@@ -65,4 +66,5 @@ image:screenshot-k8s-aks-import-2.png["인증 기관, 클라이언트 키 및 �
 
 
 
+.결과
 BlueXP는 Kubernetes 클러스터를 Canvas에 추가합니다.

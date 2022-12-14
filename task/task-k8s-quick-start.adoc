@@ -22,6 +22,7 @@ BlueXP에 Kubernetes 클러스터를 추가하여 고급 데이터 관리를 몇
 
 사용 link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] 단 몇 단계만으로 Kubernetes 클러스터 관리를 시작할 수 있습니다.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 사전 요구 사항을 검토합니다
 [role="quick-margin-para"]
 환경이 클러스터 유형의 사전 요구 사항을 충족하는지 확인합니다.
 
@@ -34,6 +35,7 @@ link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kuberne
 [role="quick-margin-para"]
 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Google Cloud의 Kubernetes 클러스터 요구사항"]
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] Kubernetes 클러스터를 BlueXP에 추가하십시오
 [role="quick-margin-para"]
 BlueXP를 사용하여 Kubernetes 클러스터를 추가하고 작업 환경에 연결할 수 있습니다.
 
@@ -46,12 +48,14 @@ link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes
 [role="quick-margin-para"]
 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-gke.html["Google Cloud Kubernetes 클러스터를 추가합니다"]
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["네"] 영구 볼륨 프로비저닝을 시작합니다
 [role="quick-margin-para"]
 네이티브 Kubernetes 인터페이스 및 구조를 사용하여 영구 볼륨을 요청 및 관리합니다. BlueXP는 영구 볼륨을 프로비저닝할 때 사용할 수 있는 NFS 및 iSCSI 스토리지 클래스를 생성합니다.
 
 [role="quick-margin-para"]
 link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-postdeployment.html#step-3-provision-your-first-volume["Astra Trident를 사용하여 첫 번째 볼륨을 프로비저닝하는 방법에 대해 자세히 알아보십시오"^].
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] BlueXP를 사용하여 클러스터를 관리합니다
 [role="quick-margin-para"]
 BlueXP에 Kubernetes 클러스터를 추가한 후 BlueXP 리소스 페이지에서 클러스터를 관리할 수 있습니다.
 

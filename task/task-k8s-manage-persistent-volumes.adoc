@@ -24,6 +24,7 @@ NOTE: BlueXP는 Kubernetes 클러스터에서 백엔드의 변경 사항을 모�
 . 개요 * 탭에서 * 볼륨 보기 * 를 클릭하거나 * 영구 볼륨 * 탭을 클릭합니다. 영구 볼륨이 구성되지 않은 경우 를 참조하십시오 link:https://docs.netapp.com/us-en/trident/trident-concepts/provisioning.html["프로비저닝"^] Astra Trident에서 볼륨을 프로비저닝하는 방법에 대한 자세한 내용은
 
 
+.결과
 구성된 영구 볼륨의 테이블이 표시됩니다.
 
 image:screenshot-k8s-volume-table.png["영구 볼륨 표의 스크린샷."]
