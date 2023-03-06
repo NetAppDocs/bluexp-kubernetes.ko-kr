@@ -87,9 +87,22 @@ NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련�
 다음 사항에 유의하십시오.
 
 +
-** 계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님).
-** 로그인에 성공하면 NetApp은 NSS 사용자 이름을 저장합니다. 이 ID는 이메일에 매핑되는 시스템에서 생성된 ID입니다. NSS 관리 * 페이지의 에서 이메일을 표시할 수 있습니다 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/icon-nss-menu.png["세 개의 가로 점으로 구성된 아이콘"] 메뉴.
-** 로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 에 * 자격 증명 업데이트 * 옵션이 있습니다 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/icon-nss-menu.png["세 개의 가로 점으로 구성된 아이콘"] 메뉴. 이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다.
+** ec084bb25ed5b934c09b361069c246b2
+** 27387009488fe78dcc7cb7e3e432792f
++
+d926847e4634e19a1aa7358becc0fa27
+
++
+a04a3a5322782e8c18d0d64be7e1ccbc
+
+** 1afe8a81cfddc9fa9559e272bb6b9496
++
+452cd4df7b0d5eb1156519a2f3b0206b
+
+** fd02e84624a2fdfd58787131aa2820b5
++
+b14d512a3c64fb5df16f6721b0603c63
+
 
 
 

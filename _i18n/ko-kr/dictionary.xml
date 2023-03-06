@@ -125,7 +125,6 @@
   <block id="381ebbd947b85d55ba63ca069f4fd6e2" category="section-title">클러스터를 검색합니다</block>
   <block id="59e75b22101388124024ba384dec1f2d" category="paragraph">Kubernetes 클러스터를 완벽하게 관리 또는 자체 관리할 수 있습니다. 관리 대상 클러스터를 검색해야만 가져올 수 있습니다.</block>
   <block id="b3077ecf2da7858bca9554a978d04da1" category="list-text">Canvas * 에서 * 작업 환경 추가 * 를 클릭합니다.</block>
-  <block id="858e77f2f26c5391299a73161193d161" category="list-text">Google Cloud Platform * &gt; * Kubernetes Cluster * 를 선택하고 * Next * 를 클릭합니다.</block>
   <block id="43fbe4a8201abe6b37503070f0c554c0" category="inline-image-macro">Google Cloud Platform 및 Kubernetes Cluster가 선택된 작업 환경 추가 페이지의 스크린샷</block>
   <block id="eb2d4b29a1f82dc5edd4825f3698ddd1" category="paragraph"><block ref="eb2d4b29a1f82dc5edd4825f3698ddd1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="85b561ece86eb3db6c1399eedd6f653e" category="list-text">Discover Cluster * 를 선택하고 * Next * 를 클릭합니다.</block>
@@ -143,14 +142,11 @@
   <block id="b695b2f49a50c3d925dc789182bc1070" category="list-text">YAML 형식의 Kubernetes 구성 파일을 업로드합니다.</block>
   <block id="6e53f86d2931b115352479b77b41a90e" category="inline-image-macro">구성 파일 및 사용 가능한 클러스터 표가 포함된 Kubernetes 클러스터 가져오기 페이지의 스크린샷</block>
   <block id="c0051c23ce1a6dfb0a01449b18d415ad" category="paragraph"><block ref="c0051c23ce1a6dfb0a01449b18d415ad" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="29508a151c67e3d0dd86c039a47344fd" category="list-text">Amazon Web Services * &gt; * Kubernetes Cluster * 를 선택하고 * Next * 를 클릭합니다.</block>
   <block id="d59c3e6f1bd8ff190720d2953c94c804" category="inline-image-macro">선택한 AWS 지역 및 Kubernetes 클러스터를 보여 주는 Kubernetes 클러스터 검색 페이지의 스크린샷</block>
   <block id="f8c9a10cf098481ef28aa7f25a7229aa" category="paragraph"><block ref="f8c9a10cf098481ef28aa7f25a7229aa" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ff2853c5c1f36238a0df55da68e45c91" category="list-text">AWS 지역을 선택하고 Kubernetes 클러스터를 선택한 후 * 다음 * 을 클릭합니다.</block>
   <block id="319ac76ffc37cba773f6bfe88644a59e" category="paragraph"><block ref="319ac76ffc37cba773f6bfe88644a59e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7132ddadc6f50c922dca046957d31211" category="paragraph"><block ref="7132ddadc6f50c922dca046957d31211" category="inline-image-macro-rx" type="image"></block></block>
   <block id="208bc8f4c94339fa8fca1463c194cc66" category="list-text">Kubernetes 클러스터를 선택하고 * Next * 를 클릭합니다.</block>
-  <block id="74ee8afccfb46a392dec169f0956097b" category="list-text">Microsoft Azure * &gt; * Kubernetes Cluster * 를 선택하고 * Next * 를 클릭합니다.</block>
   <block id="16a071ff29c08b2edb676685f737e0a0" category="inline-image-macro">Microsoft Azure 및 Kubernetes Cluster가 선택된 작업 환경 추가 페이지의 스크린샷</block>
   <block id="d15187582d177bb14569cfabe373d93d" category="paragraph"><block ref="d15187582d177bb14569cfabe373d93d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="860ae4b6d7d8ee1a9456e45642a4a03b" category="paragraph"><block ref="860ae4b6d7d8ee1a9456e45642a4a03b" category="inline-image-macro-rx" type="image"></block></block>
@@ -315,7 +311,6 @@
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">메시지가 표시되면 * 계속 * 을 클릭하여 Microsoft 로그인 페이지로 리디렉션됩니다.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
-  <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">자체 지원</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">이 옵션은 하루 24시간, 주 7일 동안 무료로 사용할 수 있습니다.</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">기술 자료</block>
   <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
@@ -323,8 +318,6 @@
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">문서화</block>
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto:ng-cloudmanager-feedback@netapp.com [피드백 이메일]</block>
-  <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp 지원</block>
-  <block id="f5052c65917d7341726235d4d4941461" category="list-text">기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
   <block id="6401d12bcac1f01899ab494a0a6d8edb" category="section-title">끌어서 놓기로 스토리지 클래스를 추가합니다</block>
   <block id="0f808082ee99c2acfbcb1661162034f6" category="paragraph">이제 Kubernetes 클러스터를 Cloud Volumes ONTAP 작업 환경에 끌어다 놓아 Canvas에서 직접 스토리지 클래스를 추가할 수 있습니다.</block>
   <block id="d23895cd28f2e8e5d3074279cea7aacf" category="inline-link-macro">스토리지 클래스를 추가합니다</block>
@@ -350,7 +343,6 @@
   <block id="d3addf40fe274281b5a1b857dc827df3" category="admonition">스토리지 클래스가 정의되지 않은 경우 클러스터에 필요한 작업이 표시됩니다. Canvas에서 클러스터를 두 번 클릭하면 작업 페이지가 열려 스토리지 클래스를 추가합니다.</block>
   <block id="61d60f1794bd3201467c51134b8ed076" category="sidebar">Kubernetes 클러스터 문서</block>
   <block id="62ee9336109ed1c4538423613b856682" category="section-title">2022년 6월 6일</block>
-  <block id="cd6d587cb36421715f3cc24a2c91aef6" category="paragraph">Cloud Manager는 이제 백엔드 스토리지로 ONTAP용 Amazon FSx를 지원합니다.</block>
   <block id="624105df248e28f049a2f58eb3552d40" category="list-text">EC2: 설명</block>
   <block id="b272876bb8d27e636bb70f2dce15cb34" category="list-text">EKS: ListClusters</block>
   <block id="457a1b6178515d282232753f808e8cf5" category="list-text">EKS: DescribeCluster</block>
@@ -388,11 +380,9 @@
   <block id="f82e729d73d970e1bd3789638aed5dca" category="inline-link-macro">Cloud Manager에 OpenShift 클러스터를 추가합니다</block>
   <block id="049c95d2615dd6bba6242ffae7eae5fe" category="list-text"><block ref="049c95d2615dd6bba6242ffae7eae5fe" category="inline-link-macro-rx"></block></block>
   <block id="19e7864b32363d7ba3bb16a024e95d79" category="list-text">시기 <block ref="44765f3a3e8511cc80b0083ae1e5f436" category="inline-link-macro-rx"></block>이제 블록 스토리지에 대한 파일 시스템 유형(fstype)을 지정할 수 있습니다.</block>
-  <block id="775f8efc928538f555b4520733a0825d" category="paragraph">OpenShift 클러스터를 추가하기 전에 다음이 필요합니다.</block>
   <block id="d795d581b00d494d8c6250bb5e1fcf89" category="inline-link-macro">kubecononfig 파일을 생성합니다</block>
   <block id="e7076b96b4cfb7668eac66eb624334ad" category="list-text">클러스터에 대한 공개 인증 기관(예: ca.crt), 클라이언트 키(예: tls.key) 및 클라이언트 인증(예: tls.crt) 파일.</block>
   <block id="17011a566ae4f46bae81e507282825fb" category="list-text">Canvas * 에서 * 작업 환경 추가 * 를 선택합니다.</block>
-  <block id="4c031f22edba9db9f5529644e071eb8a" category="list-text">클라우드 공급자를 선택하고 * Kubernetes Cluster * 를 선택한 후 * Next * 를 선택합니다.</block>
   <block id="02ebc3697d40233b9c554520eda51f25" category="list-text">클러스터 가져오기 * 를 선택한 후 * 다음 * 을 선택합니다.</block>
   <block id="7c371426945f4674b445faa898f442c8" category="list-text">클러스터 인증서를 업로드합니다.</block>
   <block id="40a58da0341e721e033a4cf334d62ab0" category="inline-image-macro">클러스터 인증서 업로드 화면의 스크린샷</block>
@@ -424,13 +414,11 @@
   <block id="ed6be01d66e94b422222a328f085d0bc" category="list-text">create-kubecononfig.sh 파일을 만듭니다. 다음 스크립트 시작 부분의 token_index를 올바른 값으로 바꿉니다.</block>
   <block id="7d164f3971b504d6203cf274cc77dd35" category="list-text">Kubernetes 클러스터에 적용할 명령을 소스 하십시오.</block>
   <block id="0c6a9a1e3ba06deae014e58e617bd162" category="sidebar">OpenShift의 Kubernetes 클러스터</block>
-  <block id="0ec3c7d00da8bde7e119875963ce517b" category="sidebar">OpenShift에서 클러스터를 추가합니다</block>
   <block id="9a1523c9f261730956627967961b03ba" category="list-text">당신이 만든 쿠베코무화나 파일 <block ref="853bbee8a9a9e7ed0c6dbe47e266bf3d" category="inline-link-macro-rx"></block>.</block>
   <block id="d68d1fb21874c919e4b91a231a5f7974" category="list-text">에서 만든 kubecon무화나 파일을 업로드합니다 <block ref="853bbee8a9a9e7ed0c6dbe47e266bf3d" category="inline-link-macro-rx"></block>. Kubernetes 클러스터를 선택하고 * Next * 를 선택합니다.</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 전문가와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">지원 등록 방법을 알아보십시오</block>
   <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">전화로 통화하려면 * 전화 * 를 클릭하십시오. 전화를 걸 수 있는 전화 번호가 나열된 netapp.com 페이지로 연결됩니다.</block>
-  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">케이스 생성 * 을 클릭하여 NetApp 지원 전문가와 함께 티켓을 엽니다.</block>
   <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp Support 사이트 계정 *: 지원 케이스를 여는 사람과 관련된 해당 NSS 계정을 선택합니다. 이 담당자는 아래에 제공된 추가 이메일 외에 NetApp에 연락할 수 있는 기본 담당자가 됩니다.</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">* 작업 환경 *: 스토리지에 적용 가능한 경우 * Cloud Volumes ONTAP * 또는 * On-Premise * 를 선택한 다음 관련 작업 환경을 선택합니다.</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">* 케이스 우선 순위 *: 케이스의 우선 순위를 선택합니다. 우선 순위는 낮음, 중간, 높음 또는 긴급입니다.</block>
@@ -513,10 +501,7 @@
   <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">이러한 작업을 통해 BlueXP는 NSS 계정을 사용하여 라이선스 다운로드, 소프트웨어 업그레이드 확인 및 향후 지원 등록과 같은 작업을 수행할 수 있습니다.</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
-  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님).</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">세 개의 가로 점으로 구성된 아이콘</block>
-  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">로그인에 성공하면 NetApp은 NSS 사용자 이름을 저장합니다. 이 ID는 이메일에 매핑되는 시스템에서 생성된 ID입니다. NSS 관리 * 페이지의 에서 이메일을 표시할 수 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
-  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 에 * 자격 증명 업데이트 * 옵션이 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴. 이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다.</block>
   <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">NetApp에 등록</block>
   <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">NetApp 지원에 등록하는 방법은 NetApp Support 사이트(NSS) 계정이 이미 있는지 여부에 따라 다릅니다.</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSS 계정이 있는 기존 고객</block>
@@ -566,7 +551,6 @@
   <block id="813e0c140ee10df8f101e9a1489de17b" category="summary">Canvas에 Managed-Kubernetes 클러스터를 추가한 후 BlueXP를 사용하여 스토리지 클래스를 관리할 수 있습니다.</block>
   <block id="810d62676145fe879fed7ed8a1ee0b17" category="paragraph">Canvas에 관리되는 Kubernetes 클러스터를 추가한 후 BlueXP를 사용하여 스토리지 클래스를 관리할 수 있습니다.</block>
   <block id="eaf3ec2142c8e728c168bcce984b8f8a" category="summary">자체 관리되는 OpenShift 클러스터를 BlueXP로 가져와 영구 볼륨을 클라우드 공급자에게 백업할 수 있습니다.</block>
-  <block id="0af3a7ff999cca901839880f4821011a" category="doc">BlueXP에 OpenShift 클러스터를 추가합니다</block>
   <block id="87eb1c50a9edf2828790a29892be6cd8" category="paragraph">자체 관리되는 OpenShift 클러스터를 BlueXP로 가져와 영구 볼륨을 클라우드 공급자에게 백업할 수 있습니다.</block>
   <block id="09a68e4db95f2514ba15c0664855019a" category="summary">Canvas에 Managed-Kubernetes 클러스터를 추가한 후 BlueXP를 사용하여 작업 공간에서 클러스터를 제거할 수 있습니다.</block>
   <block id="1de96768a7ac64195941be24c27b9e69" category="paragraph">Canvas에 관리되는 Kubernetes 클러스터를 추가한 후 BlueXP를 사용하여 작업 공간에서 클러스터를 제거할 수 있습니다.</block>
@@ -629,4 +613,20 @@
   <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Google Cloud용 Cloud Volumes Service</block>
   <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
+  <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">2023년 3월 5일</block>
+  <block id="ed9855757b31d516a4fa8f955edec2eb" category="list-text">BlueXP의 Kubernetes는 이제 Astra Trident 23.01을 지원합니다.</block>
+  <block id="3aea41413b60d0894823e739f01efcbb" category="list-text">사용자 인터페이스가 개선되었으며 스크린샷이 설명서에 업데이트되었습니다.</block>
+  <block id="62825001719fa641c3a8235d2a324b31" category="paragraph">Cloud Manager는 이제 백엔드 스토리지로 ONTAP용 Amazon FSx를 지원합니다.</block>
+  <block id="020cdcf75af448034455fde9f5359770" category="doc">OpenShift 클러스터를 BlueXP로 가져옵니다</block>
+  <block id="d507a2c476794012c5403c02b1e10599" category="paragraph">OpenShift 클러스터를 가져오기 전에 다음이 필요합니다.</block>
+  <block id="da391b0f5d5be6622fec4f741f6e4b96" category="list-text">클라우드 공급자를 선택하고 * Kubernetes Cluster * &gt; * Discover * 를 선택합니다.</block>
+  <block id="0777348438f5b5e80b80f0b45f60b666" category="list-text">Google Cloud Platform * &gt; * Kubernetes Cluster * &gt; * Discover * 를 선택합니다.</block>
+  <block id="824ab8e63b4d52c9afc7f4925a7654af" category="list-text">Amazon Web Services * &gt; * Kubernetes Cluster * &gt; * Discover * 를 선택합니다.</block>
+  <block id="84a9f84fdd14e27de2581a0cef7980f8" category="list-text">AWS 지역을 선택하고 Kubernetes 클러스터를 선택한 후 * 다음 * 을 클릭합니다.</block>
+  <block id="8382e8880f439b654a53cf3d0d0c1bfc" category="list-text">Microsoft Azure * &gt; * Kubernetes Cluster * &gt; * Discover * 를 선택합니다.</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">자체 지원 옵션을 사용합니다</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">NetApp Support로 케이스 생성</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">리소스 * 페이지의 기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
+  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">케이스 생성 * 을 클릭하여 NetApp 지원 담당자와 티켓을 엽니다.</block>
+  <block id="14d43bcefa1304e65774a093c0b798c2" category="sidebar">OpenShift 클러스터를 가져옵니다</block>
 </blocks>

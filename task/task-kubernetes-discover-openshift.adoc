@@ -4,7 +4,7 @@ permalink: /task/task-kubernetes-discover-openshift.html
 keywords: kubernetes, k8s, discover kubernetes cluster, discover k8s, openshift, kubernetes support, import kubernetes cluster, import 
 summary: 자체 관리되는 OpenShift 클러스터를 BlueXP로 가져와 영구 볼륨을 클라우드 공급자에게 백업할 수 있습니다. 
 ---
-= BlueXP에 OpenShift 클러스터를 추가합니다
+= OpenShift 클러스터를 BlueXP로 가져옵니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -23,7 +23,7 @@ summary: 자체 관리되는 OpenShift 클러스터를 BlueXP로 가져와 영�
 Kubernetes 구성 파일을 사용하여 자체 관리되는 Kubernetes 클러스터를 가져올 수 있습니다.
 
 .시작하기 전에
-OpenShift 클러스터를 추가하기 전에 다음이 필요합니다.
+OpenShift 클러스터를 가져오기 전에 다음이 필요합니다.
 
 * 당신이 만든 쿠베코무화나 파일 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-openshift.html#create-a-kubeconfig-file["kubecononfig 파일을 생성합니다"].
 * 클러스터에 대한 공개 인증 기관(예: ca.crt), 클라이언트 키(예: tls.key) 및 클라이언트 인증(예: tls.crt) 파일.
@@ -31,7 +31,7 @@ OpenShift 클러스터를 추가하기 전에 다음이 필요합니다.
 
 .단계
 . Canvas * 에서 * 작업 환경 추가 * 를 선택합니다.
-. 클라우드 공급자를 선택하고 * Kubernetes Cluster * 를 선택한 후 * Next * 를 선택합니다.
+. 클라우드 공급자를 선택하고 * Kubernetes Cluster * > * Discover * 를 선택합니다.
 . 클러스터 가져오기 * 를 선택한 후 * 다음 * 을 선택합니다.
 . 에서 만든 kubecon무화나 파일을 업로드합니다 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-openshift.html#create-a-kubeconfig-file["kubecononfig 파일을 생성합니다"]. Kubernetes 클러스터를 선택하고 * Next * 를 선택합니다.
 +

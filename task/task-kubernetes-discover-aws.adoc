@@ -24,7 +24,7 @@ Kubernetes 클러스터를 완벽하게 관리 또는 자체 관리할 수 있�
 
 .단계
 . Canvas * 에서 * 작업 환경 추가 * 를 클릭합니다.
-. Amazon Web Services * > * Kubernetes Cluster * 를 선택하고 * Next * 를 클릭합니다.
+. Amazon Web Services * > * Kubernetes Cluster * > * Discover * 를 선택합니다.
 +
 image:screenshot-discover-kubernetes-aws-1.png["선택한 AWS 지역 및 Kubernetes 클러스터를 보여 주는 Kubernetes 클러스터 검색 페이지의 스크린샷"]
 
@@ -48,7 +48,7 @@ Kubernetes 구성 파일을 사용하여 자체 관리되는 Kubernetes 클러�
 
 .단계
 . Canvas * 에서 * 작업 환경 추가 * 를 클릭합니다.
-. Amazon Web Services * > * Kubernetes Cluster * 를 선택하고 * Next * 를 클릭합니다.
+. Amazon Web Services * > * Kubernetes Cluster * > * Discover * 를 선택합니다.
 . 클러스터 가져오기 * 를 선택하고 * 다음 * 을 클릭합니다.
 . YAML 형식의 Kubernetes 구성 파일을 업로드합니다.
 +

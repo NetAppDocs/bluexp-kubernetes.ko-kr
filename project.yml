@@ -45,7 +45,7 @@ sidebar:
     - title: Google Cloud에서 클러스터를 추가합니다
       flavor: gcp
       url: "/task/task-kubernetes-discover-gke.html"
-    - title: OpenShift에서 클러스터를 추가합니다
+    - title: OpenShift 클러스터를 가져옵니다
       url: "/task/task-kubernetes-discover-openshift.html"
   - title: Kubernetes 클러스터 관리
     url: "/concept-manage-k8s.html"
