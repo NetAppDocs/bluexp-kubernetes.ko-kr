@@ -4,7 +4,7 @@ permalink: /task/task-k8s-manage-trident.html
 keywords: kubernetes, k8s, install astra trident, kubernetes support 
 summary: Canvas에 Managed-Kubernetes 클러스터를 추가한 후 BlueXP를 사용하여 호환되는 Astra Trident 설치를 확인하거나 Astra Trident를 설치할 수 있습니다. Astra Trident의 최신 버전 4개 중 하나가 필요합니다. 
 ---
-= Astra Trident를 설치하거나 업그레이드합니다
+= Astra Trident 관리
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,17 +14,32 @@ summary: Canvas에 Managed-Kubernetes 클러스터를 추가한 후 BlueXP를 �
 
 
 [role="lead"]
-Canvas에 관리되는 Kubernetes 클러스터를 추가한 후 BlueXP를 사용하여 호환되는 Astra Trident 설치를 확인하거나 Astra Trident를 최신 버전으로 설치 또는 업그레이드할 수 있습니다.
-
-[NOTE]
-====
-* Astra Trident가 설치되지 않았거나 호환되지 않는 버전의 Astra Trident가 설치된 경우 클러스터에 필요한 조치가 표시됩니다.
-* Trident 연산자를 사용하여 배포된 가장 최신 버전의 Astra Trident 중 하나(수동 또는 Hrom 차트 사용)가 필요합니다.
-* 를 사용하여 구축된 Astra Trident `tridentctl` 은(는) 지원되지 않습니다. 를 사용하여 Astra Trident를 구축한 경우 `tridentctl`BlueXP를 사용하여 Kubernetes 클러스터를 관리할 수는 없습니다. 반드시 해야 합니다  다시 설치합니다 link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Trident 연산자 사용"^] 또는 아래 단계를 사용합니다.
+Canvas에 관리되는 Kubernetes 클러스터를 추가한 후 BlueXP를 사용하여 호환되는 Astra Trident 설치를 확인하거나, Astra Trident를 최신 버전으로 설치 또는 업그레이드하거나, Astra Trident를 제거할 수 있습니다.
 
 
-====
+
+== BlueXP의 Astra Trident
+
+BlueXP에 Kubernetes 클러스터를 추가한 후 개요 페이지에서 Astra Trident 및 Kubernetes 클러스터를 관리할 수 있습니다. 개요 페이지를 열려면 Canvas에서 Kubernetes 작업 환경을 두 번 클릭합니다.
+
+image:screenshot-k8s-resource-page.png["클러스터에 대한 세부 정보를 보여주는 Kubernetes 리소스 페이지의 스크린샷"]
+
+
+
+=== Astra Trident 버전 지원
+
+Trident 연산자를 사용하여 배포된 가장 최신 버전의 Astra Trident 중 하나(수동 또는 Hrom 차트 사용)가 필요합니다. Astra Trident가 설치되지 않았거나 호환되지 않는 버전의 Astra Trident가 설치된 경우 클러스터에 필요한 조치가 표시됩니다.
+
+
+NOTE: 를 사용하여 구축된 Astra Trident `tridentctl` 은(는) 지원되지 않습니다. 를 사용하여 Astra Trident를 구축한 경우 `tridentctl`, BlueXP를 사용하여 Kubernetes 클러스터를 관리하거나 Astra Trident를 제거할 수는 없습니다. 반드시 해야 합니다  를 사용하여 Astra Trident를 수동으로 재설치합니다 link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Trident 운영자"^] 또는 을(를) 사용하는 BlueXP에서 <<Astra Trident를 설치하거나 업그레이드합니다>>.
+
 Astra Trident에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/trident/index.html["Astra Trident 문서"^].
+
+
+
+== Astra Trident를 설치하거나 업그레이드합니다
+
+개요 페이지에서 Astra Trident 설치 상태 및 버전을 검토할 수 있습니다. Astra Trident가 아직 설치되지 않았거나 호환되지 않는 버전이 설치된 경우 BlueXP를 사용하여 관리할 수 있습니다.
 
 .단계
 . Canvas에서 Kubernetes 작업 환경을 두 번 클릭하거나 * 작업 환경 입력 * 을 클릭합니다.
@@ -37,9 +52,40 @@ image:screenshot-k8s-install-trident.png["Astra Trident가 설치되지 않은 K
 +
 image:screenshot-k8s-upgrade-trident.png["Astra Trident 업그레이드 프로세스 스크린샷."]
 
++
+
+NOTE: BlueXP를 사용하여 21.01 이전 버전의 Astra Trident에서 업그레이드할 수 없습니다. 이전 버전에서 업그레이드하려면 를 참조하십시오 link:https://docs.netapp.com/us-en/trident/trident-managing-k8s/upgrade-operator.html["운영자와 함께 업그레이드하십시오"^].
+
 
 
 
 
 .결과
 Astra Trident의 최신 버전이 설치되어 있습니다. 이제 스토리지 클래스를 추가할 수 있습니다.
+
+
+
+== Astra Trident를 제거합니다
+
+BlueXP를 사용하거나 Trident 연산자(제어 또는 수동)를 사용하여 Astra Trident를 설치한 경우 BlueXP를 사용하여 제거할 수 있습니다.
+
+[NOTE]
+====
+* Astra Trident를 제거한 후에도 새 영구 볼륨을 생성할 수 없지만 기존 볼륨은 계속 사용할 수 있습니다.
+* Astra Trident를 제거하는 동안 백업을 사용할 수 없습니다.
+* 클러스터 관리를 계속하려면 언제든지 작업 환경에 Astra Trident를 다시 설치할 수 있습니다.
+
+
+====
+BlueXP를 사용하여 Astra Trident를 제거해도 설치 중에 적용된 Astra Trident 서비스가 모두 제거되지는 않습니다. 생성한 모든 사용자 지정 리소스 정의(CRD)를 포함하여 Astra Trident를 완전히 제거하려면 을 참조하십시오 link:https://docs.netapp.com/us-en/trident/trident-managing-k8s/uninstall-trident.html#uninstall-by-using-the-trident-operator["Trident 연산자를 사용하여 제거합니다"^]
+
+.단계
+. 개요 페이지에서 줄임표 및 * Uninstall Astra Trident * 를 선택합니다.
++
+image:screenshot-trident-uninstall.png["Astra Trident를 제거하는 메뉴 스크린샷"]
+
+. Astra Trident를 확인하고 제거하려면 * 제거 * 를 선택합니다.
+
+
+.결과
+이제 Astra Trident가 작업 환경에서 제거되었습니다. 언제든지 Astra Trident를 다시 설치할 수 있습니다.

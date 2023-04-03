@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: /task/task-k8s-quick-start.html 
 keywords: kubernetes, persistent volumes, containers, persistent storage, kubeconfig, trident, kubernetes cluster, storage classes, classes, cvo-single, cvo-ha, thick provisioning, trident_trident, connect, disconnect, provision 
-summary: BlueXP에 Kubernetes 클러스터를 추가하여 고급 데이터 관리를 몇 가지 간단한 단계로 수행할 수 있습니다. 
+summary: BlueXP를 사용하면 단 몇 단계만으로 Kubernetes 클러스터 관리를 시작할 수 있습니다. 
 ---
 = Kubernetes 클러스터 시작
 :hardbreaks:
@@ -14,12 +14,6 @@ summary: BlueXP에 Kubernetes 클러스터를 추가하여 고급 데이터 관�
 
 
 [role="lead"]
-BlueXP에 Kubernetes 클러스터를 추가하여 고급 데이터 관리를 몇 가지 단계로 수행할 수 있습니다.
-
-
-
-== 빠른 시작
-
 사용 link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] 단 몇 단계만으로 Kubernetes 클러스터 관리를 시작할 수 있습니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 사전 요구 사항을 검토합니다

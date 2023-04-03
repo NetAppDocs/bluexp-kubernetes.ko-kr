@@ -18,6 +18,14 @@ BlueXP(이전의 Cloud Manager)의 Kubernetes 새 기능에 대해 알아보십�
 
 
 
+== 2023년 4월 2일
+
+* 이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-trident.html["Astra Trident를 제거합니다"] Trident 운영자 또는 BlueXP를 사용하여 설치되었습니다.
+* 사용자 인터페이스가 개선되었으며 스크린샷이 설명서에 업데이트되었습니다.
+
+
+
+
 == 2023년 3월 5일
 
 * BlueXP의 Kubernetes는 이제 Astra Trident 23.01을 지원합니다.

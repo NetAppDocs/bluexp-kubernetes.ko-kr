@@ -182,7 +182,6 @@
   <block id="6d6f9b61b474cb16598eda49f24d6452" category="list-text"><block ref="6d6f9b61b474cb16598eda49f24d6452" category="inline-link-macro-rx"></block></block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="inline-link-macro">빠른 시작</block>
   <block id="14d9b10c6196045941347a9e85704b50" category="inline-link-macro">Astra Trident 문서</block>
-  <block id="703b6be9eec96bb49a157de2a1ae70ae" category="admonition">Astra Trident가 설치되지 않았거나 호환되지 않는 버전의 Astra Trident가 설치된 경우 클러스터에 필요한 조치가 표시됩니다.</block>
   <block id="1130de8b9b833485eff2e257fb69bfc6" category="list-text">Canvas에서 Kubernetes 작업 환경을 두 번 클릭하거나 * 작업 환경 입력 * 을 클릭합니다.</block>
   <block id="6867d56501a1639e8de0328e96a5d354" category="list-text">Astra Trident가 설치되지 않은 경우 * Install Trident * 를 클릭합니다.</block>
   <block id="7c729d1891ae54bb841ac8551a0cc665" category="inline-image-macro">Astra Trident가 설치되지 않은 K8s 리소스 페이지 스크린샷과 Astra Trident를 설치하는 단추.</block>
@@ -244,9 +243,6 @@
   <block id="fbb4c4e41bf29d56afd94a8150a4fc4d" category="summary">Astra Trident는 NetApp에서 관리하며 완벽한 지원이 제공되는 오픈 소스 프로젝트입니다. Astra Trident는 Kubernetes 및 영구 볼륨 프레임워크와 기본적으로 통합되어 NetApp 스토리지 플랫폼을 함께 실행하는 시스템에서 볼륨을 원활하게 프로비저닝 및 관리합니다.</block>
   <block id="d202d8021b40bfbe11235a5a65c0fe8c" category="inline-link-macro">Trident에 대해 자세히 알아보십시오</block>
   <block id="4f63c1d4acd536bd5b9a9745d3f20e7b" category="paragraph">Astra Trident는 NetApp에서 관리하며 완벽한 지원이 제공되는 오픈 소스 프로젝트입니다. Astra Trident는 Kubernetes 및 영구 볼륨 프레임워크와 기본적으로 통합되어 NetApp 스토리지 플랫폼을 함께 실행하는 시스템에서 볼륨을 원활하게 프로비저닝 및 관리합니다. <block ref="dd2206fc656d0a859de4039d89433dfe" category="inline-link-macro-rx"></block>.</block>
-  <block id="3e1566822574596f61c1fe009087856e" category="list-text">하이브리드 클라우드 인프라의 일부로 클러스터를 추가하고 관리합니다.</block>
-  <block id="aa6e96555ed26ef1dcb622e5b13653ae" category="list-text">스토리지 클래스를 추가 및 관리하고 작업 환경에 연결합니다.</block>
-  <block id="d59a7b1b3d81013cb6befe124b4da534" category="list-text">Cloud Backup Service를 사용하여 영구 볼륨을 백업합니다.</block>
   <block id="46a72d9af542e3e84ec5f5f3a72f54c1" category="inline-link-macro">Amazon Elastic Kubernetes Service(Amazon EKS)</block>
   <block id="f3bd1985b243e9691bbbd63c6702344b" category="inline-link-macro">Microsoft Azure Kubernetes Service(AKS)</block>
   <block id="974030a30a48754684d05541fd5e96c9" category="inline-link-macro">Google Kubernetes Engine(GKE)</block>
@@ -353,8 +349,6 @@
   <block id="74f5fa93248faf352ebad3f966bf3b55" category="paragraph"><block ref="74f5fa93248faf352ebad3f966bf3b55" category="inline-link-macro-rx"></block></block>
   <block id="412d8f1a8f03a7ee8f0983e7ecafe5e4" category="list-text">이제 Kubernetes 클러스터를 ONTAP용 AWS FSx 작업 환경에 끌어다 놓아 Canvas에서 직접 스토리지 클래스를 추가할 수 있습니다.</block>
   <block id="b6f2a65b5d8cda52b65468f1121cccbe" category="inline-link-macro">Trident 연산자 사용</block>
-  <block id="7bf320596331b39277fe4c33b233a4de" category="list-text">호환되는 Astra Trident 버전이 설치되었는지 확인하거나 최신 버전의 Astra Trident로 업그레이드하십시오. 을 참조하십시오 <block ref="1a59dd77a0d64111faec261144239ca1" category="inline-link-macro-rx"></block>.</block>
-  <block id="3a6729951b75ba10964e07a3b4768c91" category="list-text">Astra Trident를 설치하거나 업그레이드합니다.</block>
   <block id="510a1dab177e7ff08d50b9ab0588f804" category="inline-link-macro">Trident 연산자를 사용하여 배포됩니다</block>
   <block id="8f13bd8ba84d92d65e6ae6ebc5f6263e" category="paragraph">Astra Trident의 최신 버전 4개 중 하나 <block ref="8da7bbab7c5d8930c9f1dd2985917853" category="inline-link-macro-rx"></block> 필수 항목입니다.</block>
   <block id="301f4e6b65ae846f84074dd048ca5b79" category="inline-link-macro">Astra Trident 사전 요구 사항을 검토합니다</block>
@@ -363,7 +357,6 @@
   <block id="d6bbc73a6086ac314349118e0d0d4de3" category="paragraph">Canvas에 관리되는 Kubernetes 클러스터를 추가한 후 NetApp 클라우드 데이터 서비스를 사용하여 고급 데이터 관리를 수행할 수 있습니다.</block>
   <block id="9db5c72d5e9592f882f48324ae18d47c" category="paragraph">Cloud Backup을 사용하여 영구 볼륨을 오브젝트 스토리지에 백업할 수 있습니다.</block>
   <block id="62286cd48d8328138c2c4d1b71e6fe45" category="doc">Astra Trident를 설치하거나 업그레이드합니다</block>
-  <block id="fa68a0b3b7640ba4bb770d375598b4b6" category="list-text">Trident 연산자를 사용하여 배포된 가장 최신 버전의 Astra Trident 중 하나(수동 또는 Hrom 차트 사용)가 필요합니다.</block>
   <block id="7d3743c0dc40fd5a7d78e22b9d4f94d4" category="list-text">지원되지 않는 Astra Trident 버전이 설치된 경우 * Upgrade Trident * 를 클릭합니다.</block>
   <block id="319a42bc8932c7d4f9387e0c5de9c64c" category="list-text">Canvas에서 Kubernetes 작업 환경을 Cloud Volumes ONTAP 또는 ONTAP용 Amazon FSx 작업 환경으로 끌어다 놓아 스토리지 클래스 마법사를 엽니다.</block>
   <block id="622535c1c45bf857c104b24a29a940e1" category="paragraph"><block ref="622535c1c45bf857c104b24a29a940e1" category="inline-link-rx"></block></block>
@@ -541,8 +534,6 @@
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">작업 환경 목록은 서비스의 상단 배너에서 선택한 BlueXP 계정, 작업 영역 및 커넥터의 범위 내에 있습니다.</block>
   <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">이 오류는 NSS 계정과 연결된 레코드 회사가 BlueXP 계정 일련 번호( 960xxxx) 또는 작동 환경 일련 번호 케이스 생성 * 양식 상단의 NSS 계정 목록을 확인하여 올바른 일치 항목을 찾거나 다음 옵션 중 하나를 사용하여 지원을 요청할 수 있습니다.</block>
   <block id="b9df8925a665185ffc090378d80c3ca0" category="summary">Canvas에 Managed-Kubernetes 클러스터를 추가한 후 BlueXP를 사용하여 호환되는 Astra Trident 설치를 확인하거나 Astra Trident를 설치할 수 있습니다. Astra Trident의 최신 버전 4개 중 하나가 필요합니다.</block>
-  <block id="f8172d064c9fb599a086fdf468a86d9c" category="paragraph">Canvas에 관리되는 Kubernetes 클러스터를 추가한 후 BlueXP를 사용하여 호환되는 Astra Trident 설치를 확인하거나 Astra Trident를 최신 버전으로 설치 또는 업그레이드할 수 있습니다.</block>
-  <block id="158d545fe2a8c88daca03335fce4aab2" category="list-text">를 사용하여 구축된 Astra Trident<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block> 은(는) 지원되지 않습니다. 를 사용하여 Astra Trident를 구축한 경우<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block>BlueXP를 사용하여 Kubernetes 클러스터를 관리할 수는 없습니다. 반드시 해야 합니다 <block ref="beced4150254b668093e945aacf7262c" category="inline-link-macro-rx"></block> 다시 설치합니다 <block ref="47df2f698ba12609a6e06bab6dbff5ef" category="inline-link-macro-rx"></block> 또는 아래 단계를 사용합니다.</block>
   <block id="2a7197d6e9567831e87e6509f3201004" category="summary">Kubernetes 클러스터를 검색하고 BlueXP로 가져와 영구 볼륨을 Google Cloud에 백업할 수 있습니다.</block>
   <block id="0ea87609b14e53ad467ce5d72a9245c5" category="doc">BlueXP에 Google Cloud Kubernetes 클러스터를 추가합니다</block>
   <block id="02ba2e13b041c6824ecb6e0878729f6b" category="paragraph">BlueXP는 Kubernetes 클러스터를 Canvas에 추가합니다.</block>
@@ -565,7 +556,6 @@
   <block id="bbbfe19ca23f7ee5a4e823af05cbd046" category="doc">Azure Kubernetes 클러스터를 BlueXP에 추가합니다</block>
   <block id="05ecd2f4a0ed37993412cf4d3e123e85" category="paragraph">Kubernetes 클러스터를 검색하고 BlueXP로 가져와 영구 볼륨을 Azure에 백업할 수 있습니다.</block>
   <block id="b99333497d2d3db69922107844cb9474" category="paragraph"><block ref="b99333497d2d3db69922107844cb9474" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ac6d0965f33632c33b532767c5f5cf1a" category="summary">BlueXP에 Kubernetes 클러스터를 추가하여 고급 데이터 관리를 몇 가지 간단한 단계로 수행할 수 있습니다.</block>
   <block id="5ba4facc62a7fe1280b842092b4e64e3" category="paragraph">BlueXP를 사용하여 Kubernetes 클러스터를 추가하고 작업 환경에 연결할 수 있습니다.</block>
   <block id="6fc0464220dc386a37007468b2c94086" category="paragraph">네이티브 Kubernetes 인터페이스 및 구조를 사용하여 영구 볼륨을 요청 및 관리합니다. BlueXP는 영구 볼륨을 프로비저닝할 때 사용할 수 있는 NFS 및 iSCSI 스토리지 클래스를 생성합니다.</block>
   <block id="22a7b4f5dd259ae78aeff6a22466a375" category="paragraph">BlueXP에 Kubernetes 클러스터를 추가한 후 BlueXP 리소스 페이지에서 클러스터를 관리할 수 있습니다.</block>
@@ -586,13 +576,11 @@
   <block id="084fbbb062290ef487eac98d44edd278" category="paragraph">시기 <block ref="44765f3a3e8511cc80b0083ae1e5f436" category="inline-link-macro-rx"></block>이제 블록 또는 파일 시스템 스토리지에 대해 스토리지 클래스 경제성을 설정할 수 있습니다.</block>
   <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022년 11월 6일</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link-macro">BlueXP</block>
-  <block id="7caa90f14b457665f7fa695360ecb815" category="paragraph">Trident 운영자를 사용해 구축된 Astra Trident의 호환 버전을 사용하면 를 사용하여 Kubernetes 클러스터를 직접 관리할 수 있습니다 <block ref="541c088337155bc1f5030ebf639984c7" category="inline-link-macro-rx"></block> (이전의 Cloud Manager).</block>
   <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">지원 대시보드를 통해 NetApp Support 사이트 계정을 추가하고 관리하여 BlueXP에서 사용할 수 있습니다.</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">지원 등록 페이지에서 계정 ID 일련 번호를 찾습니다.</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">위의 2단계에서 계정의 일련 번호를 복사하고 보안 검색을 완료한 다음 NetApp의 글로벌 데이터 개인 정보 보호 정책을 읽는지 확인합니다.</block>
   <block id="cc8b0535948da368f832027c19b7f853" category="list-text">일련 번호 필드에 위에서 사용된 계정 일련 번호(960xxxx)를 복사해 주십시오. 이렇게 하면 계정 처리 속도가 빨라집니다.</block>
-  <block id="485af08837450e02af336c55571fef57" category="paragraph">BlueXP에 Kubernetes 클러스터를 추가하여 고급 데이터 관리를 몇 가지 단계로 수행할 수 있습니다.</block>
   <block id="c0a71f242f9a20837eeb221262b5ec52" category="paragraph">사용 <block ref="541c088337155bc1f5030ebf639984c7" category="inline-link-macro-rx"></block> 단 몇 단계만으로 Kubernetes 클러스터 관리를 시작할 수 있습니다.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">시작하기 전에</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
@@ -629,4 +617,84 @@
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">리소스 * 페이지의 기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
   <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">케이스 생성 * 을 클릭하여 NetApp 지원 담당자와 티켓을 엽니다.</block>
   <block id="14d43bcefa1304e65774a093c0b798c2" category="sidebar">OpenShift 클러스터를 가져옵니다</block>
+  <block id="2d5671c9f87d5881eec80e4e140c0364" category="list-text">호환되는 Astra Trident 버전이 설치되었는지 확인하거나, 최신 버전의 Astra Trident로 업그레이드하거나, Astra Trident를 제거하십시오. 을 참조하십시오 <block ref="1a59dd77a0d64111faec261144239ca1" category="inline-link-macro-rx"></block>.</block>
+  <block id="18f4dd4dcad9491106ca9ad766f15972" category="summary">BlueXP를 사용하면 단 몇 단계만으로 Kubernetes 클러스터 관리를 시작할 수 있습니다.</block>
+  <block id="c949166d6970748c0094c800daa3324a" category="doc">Astra Trident 관리</block>
+  <block id="5362d84aa85052dc57ee427cc92ef344" category="paragraph">Canvas에 관리되는 Kubernetes 클러스터를 추가한 후 BlueXP를 사용하여 호환되는 Astra Trident 설치를 확인하거나, Astra Trident를 최신 버전으로 설치 또는 업그레이드하거나, Astra Trident를 제거할 수 있습니다.</block>
+  <block id="161d9090769f19a69eef7ef0c229d93d" category="section-title">BlueXP의 Astra Trident</block>
+  <block id="62c30bcfbdb4b7c0181a789ede3e749a" category="paragraph">BlueXP에 Kubernetes 클러스터를 추가한 후 개요 페이지에서 Astra Trident 및 Kubernetes 클러스터를 관리할 수 있습니다. 개요 페이지를 열려면 Canvas에서 Kubernetes 작업 환경을 두 번 클릭합니다.</block>
+  <block id="ec6fcae1ba8df077c437ef2026436316" category="section-title">Astra Trident 버전 지원</block>
+  <block id="ea355478bf6a72e41e6454dd0be48ae2" category="paragraph">Trident 연산자를 사용하여 배포된 가장 최신 버전의 Astra Trident 중 하나(수동 또는 Hrom 차트 사용)가 필요합니다. Astra Trident가 설치되지 않았거나 호환되지 않는 버전의 Astra Trident가 설치된 경우 클러스터에 필요한 조치가 표시됩니다.</block>
+  <block id="54569e194bab3dae1d44eaaa9ad1ab0b" category="inline-link-macro">Trident 운영자</block>
+  <block id="8153aaea8ca787dd0f6e13cd06ba39b8" category="admonition">를 사용하여 구축된 Astra Trident<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block> 은(는) 지원되지 않습니다. 를 사용하여 Astra Trident를 구축한 경우<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block>, BlueXP를 사용하여 Kubernetes 클러스터를 관리하거나 Astra Trident를 제거할 수는 없습니다. 반드시 해야 합니다 <block ref="beced4150254b668093e945aacf7262c" category="inline-link-macro-rx"></block> 를 사용하여 Astra Trident를 수동으로 재설치합니다 <block ref="63fe8d185cbbf6a0ce17ed72ff923974" category="inline-link-macro-rx"></block> 또는 을(를) 사용하는 BlueXP에서 <block ref="f1de51606b29dff0c9b1a92d4a5068f2" category="inline-xref-macro-rx"></block>.</block>
+  <block id="85476e9aef7545cef68e349b3a81422c" category="paragraph">개요 페이지에서 Astra Trident 설치 상태 및 버전을 검토할 수 있습니다. Astra Trident가 아직 설치되지 않았거나 호환되지 않는 버전이 설치된 경우 BlueXP를 사용하여 관리할 수 있습니다.</block>
+  <block id="5ff3faebb0ff710340bdbee89a4667ad" category="inline-link-macro">운영자와 함께 업그레이드하십시오</block>
+  <block id="244f5a9f7cb41a54f23539754a6e17b2" category="admonition">BlueXP를 사용하여 21.01 이전 버전의 Astra Trident에서 업그레이드할 수 없습니다. 이전 버전에서 업그레이드하려면 를 참조하십시오 <block ref="c2b60006c9fadcf65befa6bac681ff72" category="inline-link-macro-rx"></block>.</block>
+  <block id="43f17763173fe230bdd78477152f5f7d" category="section-title">Astra Trident를 제거합니다</block>
+  <block id="83b445d8ff0d72c31d8404121a5105f4" category="paragraph">BlueXP를 사용하거나 Trident 연산자(제어 또는 수동)를 사용하여 Astra Trident를 설치한 경우 BlueXP를 사용하여 제거할 수 있습니다.</block>
+  <block id="7d4b056f6045b6850c0716327db288b6" category="list-text">Astra Trident를 제거한 후에도 새 영구 볼륨을 생성할 수 없지만 기존 볼륨은 계속 사용할 수 있습니다.</block>
+  <block id="324bdc145af29bc671d0caf2a7b498f6" category="list-text">Astra Trident를 제거하는 동안 백업을 사용할 수 없습니다.</block>
+  <block id="311bac3bde31940eb5734ccc0f196472" category="list-text">클러스터 관리를 계속하려면 언제든지 작업 환경에 Astra Trident를 다시 설치할 수 있습니다.</block>
+  <block id="58696af88eb7bc52de53be6f3297f99c" category="inline-link-macro">Trident 연산자를 사용하여 제거합니다</block>
+  <block id="3c8ca53356eeccb12428a250663aa881" category="paragraph">BlueXP를 사용하여 Astra Trident를 제거해도 설치 중에 적용된 Astra Trident 서비스가 모두 제거되지는 않습니다. 생성한 모든 사용자 지정 리소스 정의(CRD)를 포함하여 Astra Trident를 완전히 제거하려면 을 참조하십시오 <block ref="3d29040915e5b5cb57038cab0797dd4f" category="inline-link-macro-rx"></block></block>
+  <block id="77addfb223c3ed99a41d37952c95a6fb" category="list-text">개요 페이지에서 줄임표 및 * Uninstall Astra Trident * 를 선택합니다.</block>
+  <block id="81241d9f0e44951e32c292b050624aba" category="inline-image-macro">Astra Trident를 제거하는 메뉴 스크린샷</block>
+  <block id="46844a78cea0511267653b2ff244faab" category="paragraph"><block ref="46844a78cea0511267653b2ff244faab" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e36a0095f836afc001b2d9c1edee5e6f" category="list-text">Astra Trident를 확인하고 제거하려면 * 제거 * 를 선택합니다.</block>
+  <block id="35019b4b6292627398d74835213fc1d9" category="paragraph">이제 Astra Trident가 작업 환경에서 제거되었습니다. 언제든지 Astra Trident를 다시 설치할 수 있습니다.</block>
+  <block id="88c49608e723add593f5becc8bd9a968" category="section-title">2023년 4월 2일</block>
+  <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">Astra Trident를 제거합니다</block>
+  <block id="ffb0a040d2831585e0b568e5514270de" category="list-text">이제 가능합니다 <block ref="16c9025f993808479cd22f07cd778a2c" category="inline-link-macro-rx"></block> Trident 운영자 또는 BlueXP를 사용하여 설치되었습니다.</block>
+  <block id="b39075adcfffd4fd3160f2f3f63a59c5" category="paragraph">를 사용합니다 <block ref="541c088337155bc1f5030ebf639984c7" category="inline-link-macro-rx"></block> (이전의 Cloud Manager) 및 Trident 연산자를 사용하여 배포된 Astra Trident의 호환 버전을 사용하면 다음과 같은 작업을 수행할 수 있습니다.</block>
+  <block id="c8e0b61e09c13c9a6302fff8b355d22c" category="list-text">Kubernetes 클러스터 추가 및 관리</block>
+  <block id="a328809c4e80884ded58a673a70bcad8" category="inline-link-macro">Astra Trident를 설치, 업그레이드 또는 제거합니다</block>
+  <block id="f21b0b2390c3041251b997210a7cf24f" category="list-text"><block ref="f21b0b2390c3041251b997210a7cf24f" category="inline-link-macro-rx"></block></block>
+  <block id="8d9aa96de7c286ee7d10cfa821025a6f" category="inline-link-macro">스토리지 클래스를 추가 및 제거합니다</block>
+  <block id="ce62c2574c8872c1fed16a5a0a8d2840" category="list-text"><block ref="ce62c2574c8872c1fed16a5a0a8d2840" category="inline-link-macro-rx"></block></block>
+  <block id="5d330c78fdbd034ad3466dadfcb8a623" category="list-text"><block ref="5d330c78fdbd034ad3466dadfcb8a623" category="inline-link-macro-rx"></block></block>
+  <block id="9c153b8dfcd24e0e7636fce1b4bc0046" category="inline-link-macro">Kubernetes 클러스터 제거</block>
+  <block id="1055dc3b82f79fd0cc2d70e2b80ad343" category="list-text"><block ref="95401bdeb9da6ac759821eb6cb403909" category="inline-link-macro-rx"></block> 를 선택합니다</block>
+  <block id="579ae5f19c02240c7a837f86f15400b5" category="inline-link-macro">Cloud Backup을 활성화하거나 봅니다</block>
+  <block id="9f4013cde5baeea58bab7f26d0642b38" category="list-text"><block ref="9f4013cde5baeea58bab7f26d0642b38" category="inline-link-macro-rx"></block></block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">* 첨부 파일(선택 사항) *: 한 번에 하나씩 최대 5개의 첨부 파일을 업로드합니다.</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">첨부 파일은 파일당 25MB로 제한됩니다. txt, log, pdf, jpg/jpeg, rtf, DOC/docx, xls/xlsx 및 CSV.</block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">지원 사례 관리(Preview)</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">BlueXP에서 직접 활성 및 해결된 지원 사례를 보고 관리할 수 있습니다. NSS 계정 및 회사와 관련된 케이스를 관리할 수 있습니다.</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">케이스 관리를 미리 보기로 사용할 수 있습니다. NetApp은 이 경험을 개선하고 다음 릴리즈에서 향상된 기능을 추가할 계획입니다. 제품 내 채팅을 사용하여 피드백을 보내주십시오.</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">페이지 상단의 케이스 관리 대시보드에서는 두 가지 보기를 제공합니다.</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">왼쪽 보기에는 사용자가 제공한 NSS 계정으로 지난 3개월 동안 개설된 총 케이스가 표시됩니다.</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">오른쪽 보기에는 사용자 NSS 계정을 기준으로 회사 수준에서 지난 3개월 동안 개설된 총 사례가 표시됩니다.</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">테이블의 결과에는 선택한 보기와 관련된 사례가 반영됩니다.</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">관심 있는 열을 추가 또는 제거할 수 있으며 우선 순위 및 상태 등의 열 내용을 필터링할 수 있습니다. 다른 열은 정렬 기능만 제공합니다.</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">자세한 내용은 아래 단계를 참조하십시오.</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">케이스 수준별로 케이스 메모를 업데이트하거나 아직 종결 또는 미결 종결 상태가 아닌 케이스를 종결할 수 있습니다.</block>
+  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">Case Management * 를 클릭하고 메시지가 표시되면 NSS 계정을 BlueXP에 추가합니다.</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">케이스 관리 * 페이지에는 BlueXP 사용자 계정과 연결된 NSS 계정과 관련된 미해결 케이스가 표시됩니다. NSS 관리 * 페이지 상단에 나타나는 것과 동일한 NSS 계정입니다.</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">필요한 경우 테이블에 표시되는 정보를 수정합니다.</block>
+  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">조직의 케이스 * 에서 * 보기 * 를 클릭하여 회사와 관련된 모든 케이스를 봅니다.</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">정확한 날짜 범위를 선택하거나 다른 기간을 선택하여 날짜 범위를 수정합니다.</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">케이스 관리 페이지의 표 위에 있는 옵션 스크린샷으로 정확한 날짜 범위 또는 최근 7일, 30일 또는 3개월을 선택할 수 있습니다.</block>
+  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">열의 내용을 필터링합니다.</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">활성 또는 종료와 같은 특정 상태와 일치하는 케이스를 필터링할 수 있는 상태 열의 필터 옵션 스크린샷</block>
+  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">테이블에 나타나는 더하기 아이콘입니다</block>
+  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">을 클릭하여 테이블에 표시되는 열을 변경합니다 <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> 표시할 열을 선택합니다.</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">표에 표시할 수 있는 열을 보여 주는 스크린샷</block>
+  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">표의 마지막 열에 세 개의 점이 있는 아이콘</block>
+  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">를 클릭하여 기존 케이스를 관리합니다 <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 사용 가능한 옵션 중 하나를 선택합니다.</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">* 사례 보기 *: 특정 케이스에 대한 전체 세부 정보를 봅니다.</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 케이스 메모 업데이트 *: 문제에 대한 추가 세부 정보를 제공하거나 * 파일 업로드 * 를 선택하여 최대 5개의 파일을 첨부할 수 있습니다.</block>
+  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">* 케이스 종료 *: 케이스를 닫는 이유에 대한 세부 정보를 제공하고 * 케이스 닫기 * 를 클릭합니다.</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">표의 마지막 열에서 메뉴를 선택한 후 수행할 수 있는 작업을 보여 주는 스크린샷</block>
+  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS 계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님). 여러 개의 고객 수준 NSS 계정을 가질 수 있습니다.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">NSS 계정은 파트너 수준 계정인 경우 하나만 있을 수 있습니다. 고객 수준 NSS 계정을 추가하려고 하면 파트너 수준 계정이 있으면 다음 오류 메시지가 나타납니다.</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"NSS 고객 유형은 이미 다른 유형의 NSS 사용자가 있으므로 이 계정에 허용되지 않습니다."</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">기존 고객 수준 NSS 계정이 있는 경우에도 마찬가지이며 파트너 수준 계정을 추가하려고 합니다.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">로그인에 성공하면 NetApp은 NSS 사용자 이름을 저장합니다.</block>
+  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">이 ID는 이메일에 매핑되는 시스템 생성 ID입니다. NSS 관리 * 페이지의 에서 이메일을 표시할 수 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
+  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 에 * 자격 증명 업데이트 * 옵션이 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다. 이러한 계정의 토큰은 90일 후에 만료됩니다. 이를 알리는 알림이 게시됩니다.</block>
 </blocks>
