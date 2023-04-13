@@ -54,13 +54,19 @@ BlueXP(이전의 Cloud Manager)의 Kubernetes 새 기능에 대해 알아보십�
 
 * Cloud Manager는 스토리지 클래스의 새로운 '-watch' 동사를 사용하고 YAML 구성을 백업 및 복원하여 이제 Kubernetes 클러스터에서 클러스터 백엔드의 변경 사항을 모니터링하고 클러스터에서 자동 백업이 구성된 경우 새로운 영구 볼륨의 백업을 자동으로 활성화할 수 있습니다.
 +
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["AWS의 Kubernetes 클러스터 요구사항"]
+ifdef::aws[]
 
-+
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Azure의 Kubernetes 클러스터 요구사항"]
 
-+
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Google Cloud의 Kubernetes 클러스터 요구사항"]
+
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["AWS의 Kubernetes 클러스터 요구사항"]엔디프::AWS[]
+
++ifdef::Azure[]
+
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Azure의 Kubernetes 클러스터 요구사항"]엔디프::Azure[]
+
+/ifdef::GCP[]
+
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Google Cloud의 Kubernetes 클러스터 요구사항"]엔디프::GCP[]
 
 * 시기 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["스토리지 클래스 정의"]이제 블록 스토리지에 대한 파일 시스템 유형(fstype)을 지정할 수 있습니다.
 
