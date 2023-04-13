@@ -58,15 +58,25 @@ ifdef::aws[]
 
 
 
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["AWS의 Kubernetes 클러스터 요구사항"]엔디프::AWS[]
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["AWS의 Kubernetes 클러스터 요구사항"]
 
-+ifdef::Azure[]
+endif::aws[]
 
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Azure의 Kubernetes 클러스터 요구사항"]엔디프::Azure[]
+를 누릅니다
 
-/ifdef::GCP[]
+ifdef::azure[]
 
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Google Cloud의 Kubernetes 클러스터 요구사항"]엔디프::GCP[]
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Azure의 Kubernetes 클러스터 요구사항"]
+
+endif::azure[]
+
+를 누릅니다
+
+ifdef::gcp[]
+
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Google Cloud의 Kubernetes 클러스터 요구사항"]
+
+endif::gcp[]
 
 * 시기 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["스토리지 클래스 정의"]이제 블록 스토리지에 대한 파일 시스템 유형(fstype)을 지정할 수 있습니다.
 
