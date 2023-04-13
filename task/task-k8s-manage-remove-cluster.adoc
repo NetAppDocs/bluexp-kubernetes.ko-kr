@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: /task/task-k8s-manage-remove-cluster.html 
+permalink: task/task-k8s-manage-remove-cluster.html 
 keywords: kubernetes, k8s, remove cluster 
 summary: Canvas에 Managed-Kubernetes 클러스터를 추가한 후 BlueXP를 사용하여 작업 공간에서 클러스터를 제거할 수 있습니다. 
 ---

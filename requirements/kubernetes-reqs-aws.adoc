@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: /requirements/kubernetes-reqs-aws.html 
+permalink: requirements/kubernetes-reqs-aws.html 
 keywords: kubernetes, k8s, discover kubernetes cluster, discover k8s, amazon eks, eks, kubernetes support, aws 
 summary: 'BlueXP에 Amazon EKS(Amazon Elastic Kubernetes Service) 클러스터를 추가하려면 먼저 다음 요구 사항이 충족되는지 확인해야 합니다.' 
 ---

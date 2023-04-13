@@ -455,7 +455,6 @@
   <block id="5accd680218ff9b6eb59e6b42358c82d" category="paragraph">Kubernetes 클러스터를 검색하고 관리하려면 Azure의 BlueXP Connector가 필요합니다. 새 Connector를 만들거나 필요한 권한이 있는 기존 Connector를 사용해야 합니다.</block>
   <block id="271a084e5da48dbda9ce571c76885fc2" category="list-text"><block ref="1707909349e0f679cb0ce7a24d808ea4" category="inline-link-macro-rx"></block> (권장)</block>
   <block id="dfbe168da8f2c622999763a901cfb01f" category="summary">BlueXP를 사용하여 Astra Trident를 설치하고, 스토리지 클래스를 구성하고, 클러스터를 제거하고, 데이터 서비스를 활성화할 수 있습니다.</block>
-  <block id="85f3c28401138a5e7e67a35f6a6235fb" category="paragraph">BlueXP를 사용하여 Astra Trident를 설치 또는 업그레이드하고, 스토리지 클래스를 구성하고, 클러스터를 제거하고, 데이터 서비스를 활성화할 수 있습니다.</block>
   <block id="a13d7ae6b7b86fa9e684a460792c33c3" category="inline-link-macro">block ref="c67fd1b99934afa248dfeb285a9a4191" prefix="" category='inline-code'/&gt;를 사용하여 제거합니다</block>
   <block id="b057ae1ed0b2c48dbe6fd1b1b2ea1a30" category="inline-link-macro">BlueXP 사용</block>
   <block id="37501597ef11ef33ee3ccd735a467231" category="admonition">를 사용하여 구축된 Astra Trident<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block> 은(는) 지원되지 않습니다. 를 사용하여 Astra Trident를 구축한 경우<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block>BlueXP를 사용하여 Kubernetes 클러스터를 관리할 수는 없습니다. 반드시 해야 합니다 <block ref="beced4150254b668093e945aacf7262c" category="inline-link-macro-rx"></block> 다시 설치합니다 <block ref="47df2f698ba12609a6e06bab6dbff5ef" category="inline-link-macro-rx"></block> 또는 <block ref="966d0d33f20c27bebc66ad66d76f5da9" category="inline-link-macro-rx"></block>.</block>
@@ -709,4 +708,5 @@
   <block id="5a81378cdc7edd9ea960cf02d6ca78d2" category="paragraph">ifdef::aws[]</block>
   <block id="b010c7530103ef9947582474d65ff9a3" category="paragraph">ifdef::azure[]</block>
   <block id="6e1e9c83b80f4d22d34cbdf60a71383b" category="paragraph">ifdef::gcp[]</block>
+  <block id="8bdda2d9f896ca0243f1004a375b90ba" category="paragraph">[].lead] BlueXP를 사용하여 Astra Trident를 설치 또는 업그레이드하고, 스토리지 클래스를 구성하고, 클러스터를 제거하고, 데이터 서비스를 활성화할 수 있습니다.</block>
 </blocks>

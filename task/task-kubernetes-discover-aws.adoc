@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: /task/task-kubernetes-discover-aws.html 
+permalink: task/task-kubernetes-discover-aws.html 
 keywords: kubernetes, k8s, discover kubernetes cluster, discover k8s, amazon eks, eks, kubernetes support, import kubernetes cluster, import, amazon s3, amazon, aws 
 summary: 'BlueXP에 Amazon EKS(Amazon Elastic Kubernetes Service) 클러스터를 추가하여 영구 볼륨의 백업을 Amazon S3에 시작할 수 있습니다.' 
 ---

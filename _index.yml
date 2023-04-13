@@ -38,7 +38,7 @@ indexpage:
       url: "/task/task-kubernetes-discover-openshift.html"
   - title: Kubernetes 클러스터 관리
     links:
-    - title: Astra Trident를 설치합니다
+    - title: Astra Trident 관리
       url: "/task/task-k8s-manage-trident.html"
     - title: 스토리지 클래스를 관리합니다
       url: "/task/task-k8s-manage-storage-classes.html"
