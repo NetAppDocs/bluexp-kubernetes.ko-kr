@@ -23,23 +23,17 @@ summary: BlueXP를 사용하면 단 몇 단계만으로 Kubernetes 클러스터 
 ifdef::aws[]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["AWS의 Kubernetes 클러스터 요구사항"]
-
-endif::aws[]
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["AWS의 Kubernetes 클러스터 요구사항"]엔디프::AWS[]
 
 ifdef::azure[]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Azure의 Kubernetes 클러스터 요구사항"]
-
-endif::azure[]
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Azure의 Kubernetes 클러스터 요구사항"]엔디프::Azure[]
 
 ifdef::gcp[]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Google Cloud의 Kubernetes 클러스터 요구사항"]
-
-endif::gcp[]
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Google Cloud의 Kubernetes 클러스터 요구사항"]엔디프::GCP[]
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] Kubernetes 클러스터를 BlueXP에 추가하십시오
 [role="quick-margin-para"]
@@ -48,23 +42,17 @@ BlueXP를 사용하여 Kubernetes 클러스터를 추가하고 작업 환경에 
 ifdef::aws[]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-aws.html["Amazon Kubernetes 클러스터를 추가합니다"]
-
-endif::aws[]
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-aws.html["Amazon Kubernetes 클러스터를 추가합니다"]엔디프::AWS[]
 
 ifdef::azure[]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-azure.html["Azure Kubernetes 클러스터를 추가합니다"]
-
-endif::azure[]
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-azure.html["Azure Kubernetes 클러스터를 추가합니다"]엔디프::Azure[]
 
 ifdef::gcp[]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-gke.html["Google Cloud Kubernetes 클러스터를 추가합니다"]
-
-endif::gcp[]
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-gke.html["Google Cloud Kubernetes 클러스터를 추가합니다"]엔디프::GCP[]
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["네"] 영구 볼륨 프로비저닝을 시작합니다
 [role="quick-margin-para"]

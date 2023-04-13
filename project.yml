@@ -37,26 +37,20 @@ sidebar:
   - title: 요구 사항
     entries:
     - title: AWS 기반 Kubernetes 클러스터
-      flavor: aws
       url: "/requirements/kubernetes-reqs-aws.html"
     - title: Azure의 Kubernetes 클러스터
-      flavor: azure
       url: "/requirements/kubernetes-reqs-aks.html"
     - title: Google Cloud의 Kubernetes 클러스터
-      flavor: gcp
       url: "/requirements/kubernetes-reqs-gke.html"
     - title: OpenShift의 Kubernetes 클러스터
       url: "/requirements/kubernetes-reqs-openshift.html"
   - title: Kubernetes 클러스터 추가
     entries:
     - title: AWS에서 클러스터 추가
-      flavor: aws
       url: "/task/task-kubernetes-discover-aws.html"
     - title: Azure에서 클러스터 추가
-      flavor: azure
       url: "/task/task-kubernetes-discover-azure.html"
     - title: Google Cloud에서 클러스터를 추가합니다
-      flavor: gcp
       url: "/task/task-kubernetes-discover-gke.html"
     - title: OpenShift 클러스터를 가져옵니다
       url: "/task/task-kubernetes-discover-openshift.html"
