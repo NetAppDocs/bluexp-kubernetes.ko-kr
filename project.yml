@@ -8,19 +8,6 @@ settings:
     pdf_enabled: true
     harmony_enabled: false
   rss_page: whats-new.html
-  filter:
-    label: 클라우드 공급자
-    default: 모든 클라우드 공급자
-    options:
-    - name: Amazon Web Services에서 직접 지원합니다
-      alias: 설치하고
-      id: aws
-    - name: Google 클라우드
-      alias: Google 클라우드
-      id: gcp
-    - name: Microsoft Azure를 참조하십시오
-      alias: Azure를 지원합니다
-      id: azure
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr
 sidebar:
   entries:
