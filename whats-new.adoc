@@ -45,7 +45,7 @@ BlueXP(이전의 Cloud Manager)의 Kubernetes 새 기능에 대해 알아보십�
 이제 자체 관리되는 OpenShift 클러스터를 Cloud Manager로 가져올 수 있습니다.
 
 * link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-openshift.html["OpenShift의 Kubernetes 클러스터 요구사항"]
-* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-add-openshift.html["Cloud Manager에 OpenShift 클러스터를 추가합니다"]
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-openshift.html["OpenShift 클러스터를 Cloud Manager로 가져옵니다"]
 
 
 
