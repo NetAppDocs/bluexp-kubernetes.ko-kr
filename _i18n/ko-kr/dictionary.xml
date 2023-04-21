@@ -455,7 +455,6 @@
   <block id="dfbe168da8f2c622999763a901cfb01f" category="summary">BlueXP를 사용하여 Astra Trident를 설치하고, 스토리지 클래스를 구성하고, 클러스터를 제거하고, 데이터 서비스를 활성화할 수 있습니다.</block>
   <block id="a13d7ae6b7b86fa9e684a460792c33c3" category="inline-link-macro">block ref="c67fd1b99934afa248dfeb285a9a4191" prefix="" category='inline-code'/&gt;를 사용하여 제거합니다</block>
   <block id="b057ae1ed0b2c48dbe6fd1b1b2ea1a30" category="inline-link-macro">BlueXP 사용</block>
-  <block id="37501597ef11ef33ee3ccd735a467231" category="admonition">를 사용하여 구축된 Astra Trident<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block> 은(는) 지원되지 않습니다. 를 사용하여 Astra Trident를 구축한 경우<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block>BlueXP를 사용하여 Kubernetes 클러스터를 관리할 수는 없습니다. 반드시 해야 합니다 <block ref="beced4150254b668093e945aacf7262c" category="inline-link-macro-rx"></block> 다시 설치합니다 <block ref="47df2f698ba12609a6e06bab6dbff5ef" category="inline-link-macro-rx"></block> 또는 <block ref="966d0d33f20c27bebc66ad66d76f5da9" category="inline-link-macro-rx"></block>.</block>
   <block id="f1353ecc73ca9ea978933e3884b9ce99" category="paragraph">Kubernetes 클러스터를 BlueXP에 추가한 후 리소스 페이지에서 클러스터를 관리할 수 있습니다. 리소스 페이지를 열려면 Canvas에서 Kubernetes 작업 환경을 두 번 클릭합니다.</block>
   <block id="8f696d5a5f9b66b14465e6edd8c0ec21" category="doc">BlueXP의 Kubernetes 데이터 관리</block>
   <block id="8b4d25df20eadf8dd52c5fe961669cb3" category="paragraph">BlueXP는 다음과 같은 환경에서 실행되는 관리형 Kubernetes 클러스터를 지원합니다.</block>
@@ -697,4 +696,5 @@
   <block id="09e2861e1b9bab7606bd9fd36b62d621" category="paragraph"><block ref="09e2861e1b9bab7606bd9fd36b62d621" category="inline-link-macro-rx"></block></block>
   <block id="f35dd6f069daa276f73035ff894db1e3" category="inline-link-macro">OpenShift 클러스터를 Cloud Manager로 가져옵니다</block>
   <block id="12b9f0d46f95d9c0c2f1be83526fc206" category="list-text"><block ref="12b9f0d46f95d9c0c2f1be83526fc206" category="inline-link-macro-rx"></block></block>
+  <block id="99c79d7305ef37a48c4a2e79d238d9cf" category="admonition">를 사용하여 구축된 Astra Trident<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block> 은(는) 지원되지 않습니다. 를 사용하여 Astra Trident를 구축한 경우<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block>BlueXP를 사용하여 Kubernetes 클러스터를 관리할 수는 없습니다. 반드시 해야 합니다 <block ref="beced4150254b668093e945aacf7262c" category="inline-link-macro-rx"></block> 다시 설치합니다 <block ref="47df2f698ba12609a6e06bab6dbff5ef" category="inline-link-macro-rx"></block> 또는 <block ref="6111f1619ab72aa073417e456dea63ce" category="inline-link-macro-rx"></block>.</block>
 </blocks>

@@ -48,7 +48,7 @@ BlueXP는 다음과 같은 환경에서 실행되는 관리형 Kubernetes 클러
 Astra Trident의 최신 버전 4개 중 하나 link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Trident 연산자를 사용하여 배포됩니다"^] 필수 항목입니다.
 
 
-NOTE: 를 사용하여 구축된 Astra Trident `tridentctl` 은(는) 지원되지 않습니다. 를 사용하여 Astra Trident를 구축한 경우 `tridentctl`BlueXP를 사용하여 Kubernetes 클러스터를 관리할 수는 없습니다. 반드시 해야 합니다  다시 설치합니다 link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Trident 연산자 사용"^] 또는 link:./tasks/task-k8s-manage-trident.html["BlueXP 사용"].
+NOTE: 를 사용하여 구축된 Astra Trident `tridentctl` 은(는) 지원되지 않습니다. 를 사용하여 Astra Trident를 구축한 경우 `tridentctl`BlueXP를 사용하여 Kubernetes 클러스터를 관리할 수는 없습니다. 반드시 해야 합니다  다시 설치합니다 link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Trident 연산자 사용"^] 또는 link:./task/task-k8s-manage-trident.html["BlueXP 사용"].
 
 BlueXP에서 Astra Trident의 최신 버전을 직접 설치하거나 업그레이드할 수 있습니다.
 
