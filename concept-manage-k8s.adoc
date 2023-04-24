@@ -33,5 +33,5 @@ image:screenshot-k8s-resource-page.png["클러스터에 대한 세부 정보를 
 * 스토리지 클래스를 추가 및 제거합니다. 을 참조하십시오 link:./task/task-k8s-manage-storage-classes.html["스토리지 클래스를 관리합니다"].
 * 영구 볼륨 보기 을 참조하십시오 link:./task/task-k8s-manage-persistent-volumes.html["영구 볼륨 보기"].
 * 작업 공간에서 Kubernetes 클러스터를 제거합니다. 을 참조하십시오 link:./task/task-k8s-manage-remove-cluster.html["클러스터를 제거합니다"].
-* Cloud Backup을 활성화하거나 봅니다. 을 참조하십시오 link:./task/task-kubernetes-enable-services.html["NetApp 클라우드 데이터 서비스를 사용해 보십시오"].
+* BlueXP 백업 및 복구를 활성화하거나 봅니다. 을 참조하십시오 link:./task/task-kubernetes-enable-services.html["NetApp 클라우드 데이터 서비스를 사용해 보십시오"].
 

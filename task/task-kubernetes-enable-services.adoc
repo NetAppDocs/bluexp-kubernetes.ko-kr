@@ -16,8 +16,8 @@ summary: Canvas에 Managed-Kubernetes 클러스터를 추가한 후 NetApp 클�
 [role="lead"]
 Canvas에 관리되는 Kubernetes 클러스터를 추가한 후 NetApp 클라우드 데이터 서비스를 사용하여 고급 데이터 관리를 수행할 수 있습니다.
 
-Cloud Backup을 사용하여 영구 볼륨을 오브젝트 스토리지에 백업할 수 있습니다.
+BlueXP 백업 및 복구를 사용하여 영구 볼륨을 오브젝트 스토리지에 백업할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-kubernetes-backup-to-cloud.html["Cloud Backup을 사용하여 Kubernetes 클러스터 데이터를 보호하는 방법에 대해 알아보십시오"^].
+link:https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-kubernetes-backup-to-cloud.html["BlueXP 백업 및 복구를 사용하여 Kubernetes 클러스터 데이터를 보호하는 방법에 대해 알아보십시오"^].
 
-image:screenshot-k8s-backup.png["Kubernetes 클러스터의 5가지 백업 작업이 나와 있는 Cloud Backup Service의 Kubernetes 페이지 스크린샷"]
+image:screenshot-k8s-backup.png["Kubernetes 클러스터의 5가지 백업 작업을 보여 주는 BlueXP 백업 및 복구의 Kubernetes 페이지 스크린샷"]
