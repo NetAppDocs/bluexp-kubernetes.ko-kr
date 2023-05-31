@@ -42,8 +42,8 @@ Kubernetes 클러스터를 검색하고 관리하려면 Google의 BlueXP Connect
 
 아래 링크 중 하나에 있는 단계를 따르십시오.
 
-* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html["BlueXP에서 커넥터를 만듭니다"^] (권장)
-* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["기존 Linux 호스트에 커넥터를 설치합니다"^]
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-gcp.html["BlueXP에서 커넥터를 만듭니다"^] (권장)
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-installing-linux.html["기존 Linux 호스트에 커넥터를 설치합니다"^]
 
 
 

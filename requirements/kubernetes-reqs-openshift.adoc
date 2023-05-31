@@ -25,9 +25,9 @@ Cloud Volumes ONTAP:: Cloud Volumes ONTAP를 클러스터에 대한 백엔드 �
 BlueXP 커넥터:: Kubernetes 클러스터를 가져오고 관리하려면 BlueXP Connector가 필요합니다. 새 Connector를 만들거나 클라우드 공급자에 대한 필수 권한이 있는 기존 Connector를 사용해야 합니다.
 +
 --
-* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html#prepare-a-connector["AWS 커넥터"]
-* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html#prepare-a-connector["Azure 커넥터"]
-* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html#prepare-a-connector["Google Cloud Connector"]
+* link:https://docs.netapp.com/us-en/bluexp-kubernetes/requirements/kubernetes-reqs-aws.html#prepare-a-connector["AWS 커넥터"]
+* link:https://docs.netapp.com/us-en/bluexp-kubernetes/requirements/kubernetes-reqs-aks.html#prepare-a-connector["Azure 커넥터"]
+* link:https://docs.netapp.com/us-en/bluexp-kubernetes/requirements/kubernetes-reqs-gke.html#prepare-a-connector["Google Cloud Connector"]
 
 
 --

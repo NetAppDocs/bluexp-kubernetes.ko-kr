@@ -20,7 +20,7 @@ Astra Trident는 NetApp에서 관리하며 완벽한 지원이 제공되는 오�
 
 == 피처
 
-를 사용합니다 link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] (Cloud Manager) 및 Trident 연산자를 사용하여 배포된 Astra Trident의 호환 버전을 사용하면 다음과 같은 이점이 있습니다.
+사용 link:https://docs.netapp.com/us-en/bluexp-setup-admin/index.html["BlueXP"^] 또한 Trident 연산자를 사용하여 배포된 Astra Trident의 호환 버전을 사용하면 다음과 같은 이점이 있습니다.
 
 * Kubernetes 클러스터 추가 및 관리
 * link:./task/task-k8s-manage-trident.html["Astra Trident를 설치, 업그레이드 또는 제거합니다"]

@@ -18,6 +18,6 @@ Canvas에 관리되는 Kubernetes 클러스터를 추가한 후 NetApp 클라우
 
 BlueXP 백업 및 복구를 사용하여 영구 볼륨을 오브젝트 스토리지에 백업할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-kubernetes-backup-to-cloud.html["BlueXP 백업 및 복구를 사용하여 Kubernetes 클러스터 데이터를 보호하는 방법에 대해 알아보십시오"^].
+link:https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-kubernetes-backup-to-cloud.html["BlueXP 백업 및 복구를 사용하여 Kubernetes 클러스터 데이터를 보호하는 방법에 대해 알아보십시오"^].
 
 image:screenshot-k8s-backup.png["Kubernetes 클러스터의 5가지 백업 작업을 보여 주는 BlueXP 백업 및 복구의 Kubernetes 페이지 스크린샷"]
