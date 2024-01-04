@@ -473,7 +473,6 @@
   <block id="87675ab25dc7f237387bffff0f0b5b0a" category="doc">BlueXP의 Kubernetes의 새로운 기능</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP에 대한 고지 사항</block>
   <block id="20047fa95487365e55e0fe5ef4fc9154" category="sidebar">BlueXP에 대한 도움을 받으십시오</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
   <block id="c6433cee19c85bb6d8ae6aa94d0f3e29" category="list-text">Filesystem * 또는 * Block * storage를 선택합니다.</block>
   <block id="41e48ca5b3f40412908aef4ef536c2c8" category="list-text">Block * 스토리지인 경우 파일 시스템 유형(fstype)을 선택합니다.</block>
   <block id="0755724e46e8d77a91d98ad969973966" category="paragraph"><block ref="0755724e46e8d77a91d98ad969973966" category="inline-image-macro-rx" type="image"></block></block>
@@ -703,4 +702,6 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자의 파일 서비스에 대한 지원을 받습니다</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스에 관한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.</block>
+  <block id="531ad5e6be7e9668f912aa6e655e5902" category="paragraph">를 교체합니다<block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix=" " category="inline-code"></block> 사용자 이름 및 을(를) 사용하여 변수를 지정합니다<block ref="28fbe2acd4be605635c165dd4f851ab7" prefix=" " category="inline-code"></block> 인증된 서비스 계정의 고유 ID를 사용합니다.</block>
+  <block id="f7686ca7ddbb48ed256c1ad60bb0a874" category="paragraph">를 교체합니다<block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix=" " category="inline-code"></block> 사용자 이름 및 을(를) 사용하여 변수를 지정합니다<block ref="28fbe2acd4be605635c165dd4f851ab7" prefix=" " category="inline-code"></block> 위에서 설명한 대로 시스템에서 할당한 관리 ID의 개체 ID 또는 권한이 부여된 사용자의 사용자 이름을 사용합니다.</block>
 </blocks>

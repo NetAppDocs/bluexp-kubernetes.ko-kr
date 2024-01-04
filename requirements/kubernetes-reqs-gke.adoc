@@ -131,7 +131,7 @@ image:screenshot-gke-unique-id.png["Cloud Console의 서비스 계정 세부 정
 --
 Kubernetes 클러스터의 백업 및 복원을 위한 기본 인증을 추가하십시오.
 
-를 교체합니다 ``subjects: kind:`` 사용자 이름 및 을(를) 사용하여 변수를 지정합니다 ``subjects: user:`` 인증된 서비스 계정의 고유 ID를 사용합니다.
+를 교체합니다 `subjects: kind:` 사용자 이름 및 을(를) 사용하여 변수를 지정합니다 `subjects: name:` 인증된 서비스 계정의 고유 ID를 사용합니다.
 
 [source, yaml]
 ----
